@@ -1,0 +1,39 @@
+// CONFIG - PALETTE
+
+$shades                  : hsl(0, 0%, 100%); // white
+
+$colours: (
+
+	shades: (
+		white 							: $shades,
+		lightergray 				: darken($shades,15),
+		lightgray  					: darken($shades,30),
+		gray 			 					: darken($shades,45),
+		darkgray 						: darken($shades,60),
+		darkergray 					: darken($shades,75),
+		black 							: hsl(0, 0%, 0%)
+	),
+
+	alerts: (
+  	info 								: hsl(200, 65%, 91%),
+		warn 								: hsl(35, 84%, 62%),
+		error 							: hsl(6, 73%, 50%),
+		success 						: hsl(120, 39%, 54%)
+	),
+
+  social: (
+    facebook            : hsl(221, 44%, 41%),
+    twitter             : hsl(196, 100%, 46%),
+    google              : hsl(7, 71%, 55%),
+    instagram           : hsl(207, 34%, 48%),
+    youtube             : hsl(0, 100%, 37%)
+  ),
+
+  techType: (
+    html                : hsl(31, 97%, 62%),
+    css                 : hsl(196, 66%, 41%),
+    js                  : hsl(41, 94%, 65%),
+    misc                : hsl(0, 0%, 45%)
+  )
+
+);

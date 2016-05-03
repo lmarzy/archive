@@ -1,0 +1,6 @@
+// OPACITY ANIMATION
+
+@include keyframes(opacity) {
+  0% { opacity: 0; }
+  90% { opacity: 1; }
+}

@@ -1,0 +1,1 @@
+<small class="copyright">&copy; 2015 Lee Marsden - Birthday Finder</small>

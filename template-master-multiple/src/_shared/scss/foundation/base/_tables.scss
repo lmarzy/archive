@@ -1,0 +1,18 @@
+/* ==========================================================================
+   BASE - TABLES
+   ========================================================================== */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: $tableBorder;
+}
+
+td, th {
+	font-weight: 300;
+}
+
+th {
+	text-align: left;
+}

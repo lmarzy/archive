@@ -1,0 +1,11 @@
+// FUNCTION - PX TO REM CONVERSION
+
+// usage
+// toRem(24px);
+
+@function toRem($px-size) {
+
+	$remSize: $px-size / $font-size;
+  @return #{$remSize}rem;
+
+}

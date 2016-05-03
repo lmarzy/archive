@@ -1,0 +1,31 @@
+/* ==========================================================================
+   COMPONENTS - CONTENT
+   ========================================================================== */
+
+.content {
+	background: white;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+
+		&__search {
+			padding: $base-spacing * 2 $base-spacing;
+		}
+
+		&__upcoming {
+			background: lighten(colour(brand, b), 60);
+		}
+
+		@include bp(10) {
+			display: flex;
+			align-items: stretch;
+
+				&__search-results {
+					width: 65%;
+				}
+
+				&__upcoming {
+					width: 35%;
+					box-shadow: inset 1px 0 0 rgba(darken(colour(main, borders),15), 0.5);
+				}
+
+		}
+}

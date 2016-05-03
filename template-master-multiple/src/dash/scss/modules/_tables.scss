@@ -1,0 +1,37 @@
+/* ==========================================================================
+   MODULES - TABLES
+   ========================================================================== */
+
+.table {
+	@include table-responsive(20);
+	clear: both;
+	
+	@include bp(20) {
+
+		thead {
+			border-width: 1px 0 1px 0;
+			border-style: solid;
+			border-color: colour(root, bgBody);
+		}
+
+		th, td {
+			border-right: 1px solid colour(root, bgBody);
+			padding: $table--padding;
+
+				&:last-child {
+					border: none;
+				}
+		}
+
+	}
+
+	th {
+		color: darken(colour(brand, a),15);
+	}
+
+	tbody {
+		tr:nth-of-type(even) {
+			background: colour(root, bgBody);
+		}
+	}
+}

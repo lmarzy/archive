@@ -1,0 +1,6 @@
+// Animation slide top
+
+@include keyframes(slideTop) {
+  0% 		{ transform: translateY(toRem(-40px)); opacity: 0; }
+  100% 	{ transform: translateY(0); opacity: 1; }
+}

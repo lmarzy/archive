@@ -1,0 +1,27 @@
+// SETTINGS - GLOBAL
+
+$settings: (
+
+	type: (
+		fontFamily 						: ('Dosis', sans-serif),
+		fontSize 							: 100%,
+		lineHeight 						: $line-height / $font-size
+	),
+
+	headings: (
+		fontFamily 						: inherit,
+		fontSize 							: inherit,
+		fontWeight 						: 300
+	),
+
+	breakpoints: (
+		10 										: 800px
+	),
+
+	misc: (
+		transitionDuration 		: 250ms,
+		borderRadius 					: 6px,
+		maxWidth 							: 1000px
+	)
+
+);

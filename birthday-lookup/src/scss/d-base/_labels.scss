@@ -1,0 +1,17 @@
+$label-display 					: block;
+$label-marginBottom 		: $base-spacing / 4;
+
+@if $labels {
+	
+/* ==========================================================================
+   BASE - LABELS
+   ========================================================================== */
+
+	label {
+		display: $label-display;
+	  margin-bottom: $label-marginBottom;
+	  font-size: toRem(20px);
+	  transition: all setting(misc, transitionDuration);
+	}
+
+} // END IF

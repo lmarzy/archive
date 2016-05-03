@@ -1,0 +1,17 @@
+[
+
+	{
+		"taskName": "build:dash",
+		"initial": "clean:dash",
+		"swig": "swig:dash",
+		"tasks": [
+			"sass:dash",
+			"cssAssets:dash",
+			"js:dash",
+			"img:dash",
+			"copy:data"
+		],
+		"end": "inject:dash"
+	}
+
+]

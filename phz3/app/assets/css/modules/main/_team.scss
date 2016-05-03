@@ -1,0 +1,22 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MODULES/MAIN/TEAM - styles for the team section
+
+/* ==========================================================================
+   TEAM MODULE STYLES
+   ========================================================================== */
+
+.team {
+	background: $white;
+	border: 1px solid $border-colour;
+	padding: $spacing;
+	margin: toRem(40px) toRem(40px) toRem(-80px) toRem(40px);
+		
+		h1 {
+			margin-bottom: $spacing * 2;
+		}
+		section h1 {
+			margin: 0;
+		}
+}

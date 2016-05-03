@@ -1,0 +1,16 @@
+/* ==========================================================================
+   COMPONENT/HEADER - LOGO
+   ========================================================================== */
+
+.c-logo {
+	padding: 0 $spacing / 2;
+	@include vr(22px, 2, 0);
+	background: colour(brand, a);
+	color: white;
+
+		@include animation(slideLeft 800ms ease-in);
+
+		@include bp(10) {
+			@include vr(28px, 2, 0);
+		}
+}

@@ -1,0 +1,26 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File :	BASE/ROOT - base root styles 
+
+/* ==========================================================================
+   BASE ROOT STYLES
+   ========================================================================== */
+
+// Set box-sizing globally to handle padding and border widths
+* {
+  box-sizing: border-box;
+}
+
+html {
+	font-family 									: $base-font-family;
+	font-size 										: $base-font-size;
+	line-height 									: $base-line-height;
+	color 												: $text-colour;
+	-webkit-text-size-adjust 			: 100%;
+	-ms-text-size-adjust 					: 100%;
+	background 										: $bg-body;
+	border-top 										: 4px solid $primary-colour;
+	-webkit-overflow-scrolling 		: touch;
+	-webkit-tap-highlight-color 	: rgba(0,0,0,0);
+}

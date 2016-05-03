@@ -1,0 +1,24 @@
+/* ==========================================================================
+   COMPONENTS - HEADER
+   ========================================================================== */
+
+.c-site-header {
+    position: relative;
+    padding-left: $base-spacing-half;
+    background: colour(brand, a);
+    @include cf;
+        
+        &__logo {
+            float: left;
+        }
+
+        &__tagline {
+            position: absolute;
+            top: toRem(32px);
+            left: toRem(32px);
+        }
+
+        &__nav {
+            float: right;
+        }
+}

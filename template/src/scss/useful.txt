@@ -1,0 +1,18 @@
+
+// check if a variable exists
+@if variable-exists(variable) {
+	@import url($variable);
+}
+
+// sass maps
+
+$map-name: (
+	key: value,
+	key: value
+);
+
+@each $var, $var in $maps
+
+// consume a map
+
+color: map-get($map, name)

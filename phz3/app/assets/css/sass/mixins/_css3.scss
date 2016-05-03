@@ -1,0 +1,15 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MIXINS/CSS3 - sass css3 mixins
+
+// SASS MIXINS
+
+// ------------------------------------------------------------------------------------------------------------------------//
+// CSS3
+// ------------------------------------------------------------------------------------------------------------------------//
+
+
+@mixin single-transition($property:all, $speed:300ms, $ease:ease-in) {
+	transition: $property $speed $ease;
+}

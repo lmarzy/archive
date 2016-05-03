@@ -1,0 +1,22 @@
+// UTILITIES - SITE SPECIFIC HELPER CLASSES
+
+// full width sites
+%l-wrap, .l-wrap {
+	padding: 0 toRem(24px);
+	// max-width: $maxWidth;
+	// margin: 0 auto;
+}
+
+.h-mb {
+	margin-bottom: $spacing;
+}
+
+.h-no-mb {
+	margin-bottom: 0;
+}
+
+.table-wrap {
+	padding-bottom: toRem(16px);
+	clear: both;
+	overflow: scroll;
+}

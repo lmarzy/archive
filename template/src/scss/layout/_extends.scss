@@ -1,0 +1,14 @@
+// GRIDS EXTENDS
+   
+// grids
+%col-one {
+	@include grid(1);
+}
+
+%col-one-half {
+	@include grid(2);
+}
+
+%col-width-half {
+	@include grid-width(2);
+}

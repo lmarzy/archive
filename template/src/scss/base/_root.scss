@@ -1,0 +1,16 @@
+/* ==========================================================================
+   BASE ROOT STYLES
+   ========================================================================== */
+
+// Set box-sizing globally to handle padding and border widths
+*, *:before, *:after {
+  box-sizing                   : border-box;
+}
+
+html {
+  font-family 									: $base-font-family;
+  font-size 										: $base-font-size;
+  line-height 									: $base-line-height;
+  background 									 	: $bg-body;
+  color                         : $text-colour;
+}

@@ -1,0 +1,7 @@
+{
+	"taskName": "copyJson",
+	"dirs": {
+		"src": "./src/js/data/*",
+		"dest": "dist/js/data/"
+	}
+}

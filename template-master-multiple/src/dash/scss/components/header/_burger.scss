@@ -1,0 +1,12 @@
+/* ==========================================================================
+   COMPONENT/HEADER - BURGER
+   ========================================================================== */
+
+.c-burger {
+	@include burger(colour(brand, b), white, colour(alerts, error));
+	@include absolute(top 0 right 0 bottom 0 left auto);
+
+		@include bp(10) {
+			display: none;
+		}
+}

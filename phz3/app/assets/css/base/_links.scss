@@ -1,0 +1,33 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : GENERIC/LINKS - generic anchor styles
+
+/* ==========================================================================
+   ANCHOR STYLES
+   ========================================================================== */
+
+a {
+	text-decoration 	: none;
+	color 						: $link-colour;
+
+		&:hover { text-decoration: underline; color: $link-colour-hover; }
+	
+		// Improve readability when hovered in all browsers.
+		&:hover, &:active { outline: 0; }
+
+		// Address `outline` inconsistency between Chrome and other browsers.
+		&:focus { outline: thin dotted; color: $link-colour-focus; }
+
+		&:visited { color: $link-colour-visited; }
+
+}
+
+// Remove text-shadow in selection highlight: h5bp.com/i
+// These selection rule sets have to be separate.
+// Customize the background color to match your design.
+
+::selection {
+    background: lighten($primary-colour,10);
+    text-shadow: none;
+}

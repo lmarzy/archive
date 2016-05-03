@@ -1,0 +1,19 @@
+/* ==========================================================================
+   COMPONENT/MEDIA - ICONS
+   ========================================================================== */
+
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+.icon-search {
+	padding-left: toRem(6px);
+	font-size: toRem(32px);
+	color: lighten(colour(main, bg),18);
+	vertical-align: middle;
+}
+
+// <svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg>

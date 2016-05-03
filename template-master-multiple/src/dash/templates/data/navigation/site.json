@@ -1,0 +1,5 @@
+[
+	{ "linkName": "Dashboard overview", "linkUrl": "/" },
+	{ "linkName": "Dashboard PP", "linkUrl": "/dashboard/pp.html" },
+	{ "linkName": "Style Guide", "linkUrl": "/guide.html" }
+]

@@ -1,0 +1,11 @@
+{
+	"host": "http://localhost:3000",
+
+	"pages": {
+  	"home": {
+     	"pageName": "Home",
+    	"pageTitle": "meta-title"
+   	}
+   }
+
+}

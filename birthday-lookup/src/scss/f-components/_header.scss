@@ -1,0 +1,32 @@
+/* ==========================================================================
+   COMPONENTS/TEMPLATE - HEADER
+   ========================================================================== */
+
+.l-header {
+	padding: $base-spacing / 2 0;
+	background: white;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	@include cf;
+
+		&__logo {
+			font-family: 'Alex Brush', cursive;
+			font-size: toRem(32px);
+		}
+		
+		@include bp(10) {
+			padding: 0 $base-spacing;
+
+				&__logo {
+					float: left;
+					@include vr(38px, 1.5);
+				}
+
+				&__current-date {
+					float: right;
+					padding-left: $base-spacing;
+					@include vr(24px, 3);
+					border-left: 1px solid colour(main, borders);
+				}
+		}
+}

@@ -1,0 +1,20 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : CLASSES/LAYOUT - class styles for global layout
+
+/* ==========================================================================
+   LAYOUT STYLES
+   ========================================================================== */
+
+.wrap {
+	position: relative;
+	width: 96%;
+	max-width: $max-width;
+	margin: 0 auto;
+}
+
+.grid-wrap {
+	margin-left: -$gutter;
+	@include cf;
+}

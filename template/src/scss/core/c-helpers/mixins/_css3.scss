@@ -1,0 +1,22 @@
+// CSS3
+
+// linear gradient
+@mixin linear-gradient($start, $end) {
+	background: linear-gradient($start, $end);
+}
+
+// transitions
+@mixin transition($args...) {
+  transition: $args;
+}
+
+// keyframe animaiton
+@mixin keyframes($animation-name) {  
+  @keyframes $animation-name {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  animation: #{$str};      
+}

@@ -1,0 +1,13 @@
+/* ==========================================================================
+   COMPONENTS - TAGLINE
+   ========================================================================== */
+
+.c-site-tagline {
+    font-style: italic;
+    color: colour(brand, c);
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: toRem(200px);
+    @include animation(tagline 3s 1s steps(60, end) forwards);
+}

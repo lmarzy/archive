@@ -1,0 +1,47 @@
+{
+  "name": "template-master",
+  "version": "0.0.1",
+  "description": "Master starter template",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmarzy/template-master.git"
+  },
+  "author": "Lee Marsden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmarzy/template-master/issues"
+  },
+  "homepage": "https://github.com/lmarzy/template-master",
+  "devDependencies": {
+    "browser-sync": "*",
+    "browserify": "*",
+    "del": "*",
+    "glob": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-casperjs": "*",
+    "gulp-htmlmin": "*",
+    "gulp-imagemin": "*",
+    "gulp-inject": "*",
+    "gulp-jshint": "*",
+    "gulp-load-plugins": "*",
+    "gulp-minify-css": "*",
+    "gulp-rev": "*",
+    "gulp-sass": "*",
+    "gulp-size": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-streamify": "*",
+    "gulp-swig": "*",
+    "gulp-uglify": "*",
+    "gulp-uncss": "*",
+    "gulp-util": "*",
+    "jshint-stylish": "*",
+    "require-dir": "*",
+    "run-sequence": "*",
+    "vinyl-source-stream": "*"
+  }
+}

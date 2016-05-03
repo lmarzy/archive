@@ -1,0 +1,20 @@
+// MIXIN - BREAKPOINT
+
+// Usage
+// @include bp(10) {}
+
+@mixin bp($breakpoint, $direction: min) {
+
+	@if not map-has-nested-keys($settings, breakpoints, $breakpoint) {
+		@warn "No value could be retrieved from `#{$breakpoint}`. " + "Please make sure it is defined in `$breakpoints` map. you noob";
+	}
+
+	@else {
+
+		@media (#{$direction}-width:#{toRem(map-deep-get($settings, breakpoints, $breakpoint))}) {
+			@content;
+		}
+				
+	}
+
+}

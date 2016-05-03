@@ -1,0 +1,33 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MODULES/GLOBAL/HEADINGS - class styles for headings
+
+/* ==========================================================================
+   HEADING MODULE STYLES
+   ========================================================================== */
+
+.section-heading {
+	@include vr(20px,1,0);
+
+		@media #{$bp-10} {
+			font-size: toRem(32px);
+		}
+}
+
+.latestWork--type {
+	@include vr(18px,1,1);
+	padding-bottom: $spacing;
+	border-bottom: 1px solid $border-colour;
+
+		@media #{$bp-10} {
+			padding-bottom: 0;
+			border-bottom: 0;
+			@include vr(24px,2,0);
+			margin: 0;
+		}
+}
+
+.latestWork--heading {
+	color: $primary-colour;
+}

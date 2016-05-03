@@ -1,0 +1,1 @@
+<small class="c-copyright">&copy;</small>

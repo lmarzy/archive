@@ -1,0 +1,7 @@
+{
+	"taskName": "js",
+	"dirs": {
+		"src": "./src/js/main.js",
+		"dest": "dist/js/"
+	}
+}

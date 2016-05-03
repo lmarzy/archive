@@ -1,0 +1,18 @@
+@if $helper-state {
+
+/* ==========================================================================
+   UTILITIES/HELPERS - STATE
+   ========================================================================== */
+
+	.is-visible, %visible {
+		display: block !important;
+	}
+	.is-hidden, %hide {
+		display: none !important;
+	}
+	.is-vh, %vh {
+		@include vh;
+	}
+
+} // END IF
+

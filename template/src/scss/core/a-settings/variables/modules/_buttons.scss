@@ -1,0 +1,24 @@
+// BUTTONS
+
+$btn-font-family 								: $base-font-family;
+$btn-font-size 									: $base-font-size;
+
+$btn-border-width 							: $border-width;
+$btn-border-style 							: $border-style;
+$btn-border-radius 							: $border-radius;
+
+$btn-font-align 								: center;
+$btn-padding 										: $frm-input-padding;
+
+$btn-opacity 										: .6;
+
+$btn-primary-bg 								: $shades; // to be updated
+$btn-primary-border-colour 			: darken($btn-primary-bg,10);
+$btn-primary-colour 						: $shades; // to be updated
+
+// sizes
+
+$btn-tiny 											: toEm(11px);
+$btn-small 											: toEm(13px);
+$btn-large 											: toEm(20px);
+$btn-huge 											: toEm(26px);

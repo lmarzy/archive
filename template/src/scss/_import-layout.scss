@@ -1,0 +1,13 @@
+// import-layout.scss - file to import all layout styles
+
+//extends
+@import "layout/extends";
+
+//header
+@import "layout/header";
+
+//footer
+@import "layout/footer";
+
+//main
+@import "layout/main";

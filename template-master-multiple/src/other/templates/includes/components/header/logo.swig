@@ -1,0 +1,1 @@
+<h1 class="c-logo h-fl">{{ global.siteName }}</h1>

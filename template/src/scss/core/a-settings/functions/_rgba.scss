@@ -1,0 +1,5 @@
+// rgba function
+
+@function op-colour($colour, $opacity) {
+  @return rgba($colour, $opacity);
+}

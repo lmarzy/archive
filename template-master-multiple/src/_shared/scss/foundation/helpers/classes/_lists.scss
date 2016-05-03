@@ -1,0 +1,15 @@
+/* ==========================================================================
+   HELPERS/CLASSES - LISTS
+   ========================================================================== */
+
+//lists
+.h-list-unstyled, %list-unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+.h-list-inline, %list-inline {
+	@extend %cf;
+
+		li { float: left; }
+}

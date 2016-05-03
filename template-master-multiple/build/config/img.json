@@ -1,0 +1,11 @@
+[
+
+	{
+		"taskName": "img:dash",
+		"dirs": {
+			"src": "./src/dash/img/*.*",
+			"dest": "dist/dash/img/"
+		}
+	}
+
+]

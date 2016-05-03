@@ -1,0 +1,58 @@
+/* ==========================================================================
+   MODULE - BUTTONS
+   ========================================================================== */
+
+.m-btn {
+	display: inline-block;
+	padding: $form--padding;
+	font-family: inherit;
+	line-height: inherit;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid colour(texture, border-colour);
+	text-decoration: none;
+	cursor: pointer;
+
+		&:hover, &:active, &:focus &:visited {
+			
+		}
+}
+
+.m-btn--a {
+	background: colours(buttons, a);
+	color: colours(shades, white);
+
+		&:hover, &:active, &:focus &:visited, &.btn-disabled, &[disabled] { 
+
+		}
+
+		&:active {
+
+		}
+}
+
+// button sizes
+
+.m-btn--tiny {
+	font-size: $btn-tiny;
+}
+
+.m-btn--small {
+	font-size: $btn-small;
+}
+.m-btn--large {
+	font-size: $btn-large;
+}
+
+.m-btn--huge {
+	font-size: $btn-huge;
+}
+
+// disabled buttons
+
+button[disabled], .m-btn--disabled {
+	opacity: .4;
+	cursor: default;
+
+		&:hover { opacity: .4; }
+}

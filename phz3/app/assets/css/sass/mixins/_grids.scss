@@ -1,0 +1,20 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MIXINS/GRIDS - sass grid mixins
+
+// SASS MIXINS
+
+// ------------------------------------------------------------------------------------------------------------------------//
+// GRIDS
+// ------------------------------------------------------------------------------------------------------------------------//
+
+@mixin column($x, $y: 1) {
+	float 				: left;
+	width 				: ($full-width / $x) * $y;
+	padding-left 	: $spacing;
+}
+
+@mixin column-width($x) {
+	width 				: ($full-width / $x);
+}

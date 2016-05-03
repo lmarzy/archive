@@ -1,0 +1,30 @@
+[
+
+	{
+		"pageName": "Index",
+		"landmarkBanner": false,
+		"landmarKNav": false,
+		"landmarkMain": false,
+		"landmarkArticle": false,
+		"landmarkComplementary": false,
+		"landmarkContentinfo": false,
+		"landmarkSearch": false,
+		"languageAttribute": false,
+		"documentOutline": false,
+		"linksFocus": false,
+		"linksRecognisable": false,
+		"imageAlt": false,
+		"jsUnobtrusive": false,
+		"jsNoJsAlternative": false,
+		"formsLayout": false,
+		"formsLabel": false,
+		"formsFieldset": false,
+		"formsLegend": false,
+		"mediaTextTranscripts": false,
+		"mediaSubtitles": false,
+		"colourContrast": false,
+		"testingScreenReader": false,
+		"testingKeyboardNavigation": false
+	}
+
+]

@@ -1,0 +1,5 @@
+// sass maps function for colour usage = color: colour(type, clour); e.gs color: colour(brand, primary);
+
+@function colour($type, $colour) {
+    @return map-get(map-get($colours, $type), $colour);
+}

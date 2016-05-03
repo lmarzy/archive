@@ -1,0 +1,49 @@
+[
+
+	{
+		"taskName": "serve:dash",
+		"tasks": "build:dash",
+		"baseDir": "dist",
+		"watch": {
+			"swig": {
+				"path": "./src/{_shared,dash}/templates/**",
+				"task": "injectWatch:dash"
+			},
+			"scss": {
+				"path": "./src/{_shared,dash}/scss/**",
+				"task": "sass:dash"
+			},
+			"js": {
+				"path": "./src/{_shared,dash}/js/**",
+				"task": "js:dash"
+			}
+		}
+	},
+
+	{
+		"taskName": "serve:all",
+		"tasks": "build:all",
+		"baseDir": "dist",
+		"watch": {
+			"swig": {
+				"path": "./src/{_shared,dash}/templates/**",
+				"task": [
+					"inject:dash"
+				]
+			},
+			"scss": {
+				"path": "./src/{_shared,dash}/scss/**",
+				"task": [
+					"sass:dash"
+				]
+			},
+			"js": {
+				"path": "./src/{_shared,dash}/js/**",
+				"task": [
+					"js:dash"
+				]
+			}
+		}
+	}
+
+]

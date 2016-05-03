@@ -1,0 +1,48 @@
+// SETTINGS - VARIABLES
+
+// type
+$font-size                      : 16px;
+$line-height                    : 24px;
+
+$fontUrl                        : 'http://fonts.googleapis.com/css?family=Dosis:400,700';
+
+$fontFamily--alt                : Cambria, Georgia, Times, "Times New Roman";
+$fontFamily--code               : Monaco, Courier New, monospace;
+
+// spacings
+
+$base-spacing                   : $line-height / $font-size * 1rem; 
+$base-spacing-half              : $base-spacing / 2;
+
+// paths
+
+$imgPath                        : 'assets/img';
+$fontPath                       : 'assets/fonts';
+
+// imports
+
+// base
+$blockquotes                    : false;
+$embedded                       : false;
+$headings                       : true;
+$inputs                         : false;
+$labels                         : false;
+$links                          : true;
+$lists                          : true;
+$paragraphs                     : true;
+$tables                         : false;
+
+// objects
+$o-grids                        : true;
+$o-grids-classes                : true;
+$o-wrapper                      : true;
+$o-media                        : false;
+
+// components
+$c-nav-site                     : true;
+$c-buttons                      : true;
+$c-icons                        : true;
+
+// utilities/helpers
+$helper-colours                 : false;
+$helper-visibility              : true;

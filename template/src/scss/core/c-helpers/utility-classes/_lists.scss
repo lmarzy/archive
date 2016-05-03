@@ -1,0 +1,13 @@
+// UTILITY-CLASSES/EXTENDS lists
+
+//lists
+.list-unstyled, %list-unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+.list-inline, %list-inline {
+	@extend %cf;
+
+		li { float: left; }
+}

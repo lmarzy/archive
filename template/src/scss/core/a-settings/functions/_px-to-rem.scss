@@ -1,0 +1,5 @@
+// px to rem function
+
+@function toRem($px-size, $base-size: 16px) {
+  @return $px-size / $base-size * 1rem;
+}

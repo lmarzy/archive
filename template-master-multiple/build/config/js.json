@@ -1,0 +1,11 @@
+[
+
+	{
+		"taskName": "js:dash",
+		"dirs": {
+			"src": "./src/dash/js/main.js",
+			"dest": "dist/dash/js/"
+		}
+	}
+
+]

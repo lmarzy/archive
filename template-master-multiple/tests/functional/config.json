@@ -1,0 +1,12 @@
+[
+	
+	{
+		"pageName": "index",
+		"pageUrl": "http://localhost:3000/"
+	},
+	{
+		"pageName": "guide",
+		"pageUrl": "http://localhost:3000/guide.html"
+	}
+
+]

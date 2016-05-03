@@ -1,0 +1,13 @@
+// UTILITY CLASSES/EXTENDS colour
+
+@each $theme, $colour in map-get($colours, brand) {
+
+	.colour-#{$theme} {
+		color: $colour;
+	}
+
+}
+
+//text colours
+.text-a, %text-a { color: colour(brand, primary); }
+.text-b, %text-b { color: colour(brand, secondary); }

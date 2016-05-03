@@ -1,0 +1,50 @@
+/* ==========================================================================
+   COMPONENTS - POSTS-COUNT
+   ========================================================================== */
+
+.c-posts-count {
+    @include cf;
+
+    &__item {
+        position: relative;
+        height: toRem(48px);
+        padding: 0 $base-spacing;
+        float: left;
+        overflow: hidden;
+
+        line-height: toRem(48px);
+        cursor: help;
+
+            &--html {
+                background-color: rgba(colour(tech, html), .2);
+            }
+            &--css {
+                background-color: rgba(colour(tech, css), .2);
+            }
+            &--js {
+                background-color: rgba(colour(tech, js), .2);
+            }
+            &--misc {
+                background-color: rgba(colour(tech, misc), .2);
+            }
+
+            &:hover {
+                .c-posts-count__tech {
+                    left: 0;
+                }
+            }
+    }
+
+    &__tech {
+        position: absolute;
+        bottom: 0;
+        left: -100%;
+        line-height: 1;
+
+        font-size: toRem(12px);
+        text-transform: uppercase;
+
+        transition: all 250ms ease-in;
+    }
+
+}

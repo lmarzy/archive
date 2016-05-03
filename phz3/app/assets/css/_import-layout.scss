@@ -1,0 +1,15 @@
+// Site 					: Responsive Template with SASS
+// CSS author 		: Lee Marsden
+// Updated body 	: Lee Marsden
+// Site CSS File 	: IMPORT-LAYOUT - layout imports which is a broken down normalise
+
+/* ==========================================================================
+		LAYOUT IMPORTS
+	 ========================================================================== */
+
+@import "layout/global";
+@import "layout/grids";
+@import "layout/header";
+@import "layout/sidebar";
+@import "layout/main";
+@import "layout/footer";

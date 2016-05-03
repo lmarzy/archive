@@ -1,0 +1,17 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : LAYOUT/MAIN - layout styles for main
+
+/* ==========================================================================
+   MAIN LAYOUT STYLES
+   ========================================================================== */
+
+main {
+	
+	@extend %transition;
+
+		.sidebar-active & {
+			transform: translateX(toRem(-300px));
+		}
+}

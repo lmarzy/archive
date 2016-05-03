@@ -1,0 +1,15 @@
+/* ==========================================================================
+   BASE - ROOT
+   ========================================================================== */
+
+html {
+	-ms-text-size-adjust 			: 100%;
+	-webkit-text-size-adjust 	: 100%;
+	-webkit-font-smoothing 		: antialiased;
+  -moz-osx-font-smoothing 	: grayscale;
+  font-family 			 				: $fontFamily;
+  font-size 				 				: 100%;
+  line-height 			 				: $font--lineHeight / $font--size;
+  background                : colour(root, bgBody);
+  color                     : colour(root, textColour);
+}

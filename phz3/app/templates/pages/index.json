@@ -1,0 +1,150 @@
+{
+	"titleIndex": "PHZ3 - UI Design &amp; front end development",
+
+	"header": {
+		"tagline": "UI Design &amp; Front End Development",
+		"taglineAdditional": "Awesome Experiences, built on awesome code.",
+		"intro": "Hi, I’m Lee or Marzy or Funsize (but we won't go there), I build websites from the small to very large. "
+	},
+
+	"contract": {
+		"title": "Contract",
+		"intro": "Working across the UK specialising in UI design and front end development, my clients include",
+		"clients": {
+			"one": {
+				"img": "assets/img/contract/one.png",
+				"imgalt": "Tryzens",
+				"caption": "Lead UI Developer"
+			},
+			"two": {
+				"img": "assets/img/contract/two.png",
+				"imgalt": "Experian",
+				"caption": "Lead UI Developer"
+			},
+			"three": {
+				"img": "assets/img/contract/three.png",
+				"imgalt": "Play.com",
+				"caption": "UX Design &amp; Front End Development"
+			},
+			"four": {
+				"img": "assets/img/contract/four.png",
+				"imgalt": "Sports Direct",
+				"caption": "Web design &amp; development"
+			}
+		}
+	},
+
+	"latestwork": {
+		"current": {
+			"title": "UI Developer @ Experian:",
+			"details": "Working as part of a team on the re-platform of Credit Expert. Building the Front-End using latest techniques for a fully adaptive web application"
+		},
+		"previous": {
+			"title": "UI Developer @ Dunelm:",
+			"details": "Lead Front-End Developer for a fully responsive E-Commerce site for Dunelm. Based on websphere commerce run fully agile."
+		}
+	},
+
+	"freelance": {
+		"title": "Freelance",
+		"intro": "Design through to build ranging from 1 page sites to full content management",
+		"clients": {
+			"latest": {
+				"img": "assets/img/freelance/latest.jpg",
+				"imgalt": "Goodall Brazier - London",
+				"caption": {
+					"title": "Goodall Brazier - London",
+					"about": "Web design &amp; Front End Development",
+					"url": "http://graduate-jobs-london.co.uk/"
+				}
+			},
+			"one": {
+				"img": "assets/img/freelance/goodall-leeds.jpg",
+				"imgalt": "Goodall Brazier - Leeds",
+				"caption": {
+					"title": "Goodall Brazier - Leeds",
+					"about": "Web design &amp; Front End Development",
+					"url": "http://graduate-jobs-leeds.co.uk/"
+				}
+			},
+			"two": {
+				"img": "assets/img/freelance/mb-electrical.jpg",
+				"imgalt": "Electrician Harrogate",
+				"caption": {
+					"title": "Electrician Harrogate",
+					"about": "Web design &amp; Front End Development",
+					"url": "http://electrician-harrogate-uk.co.uk/"
+				}
+			},
+			"three": {
+				"img": "assets/img/freelance/ed-waite.jpg",
+				"imgalt": "Edward Waite - Contemporary Artist",
+				"imgalt": "Edward Waite - Contemporary Artist",
+				"caption": {
+					"title": "Edward Waite - Contemporary Artist",
+					"about": "Front End Web Development",
+					"url": "http://www.edwardwaite.com"
+				}
+			},
+			"four": {
+				"img": "assets/img/freelance/airborne.jpg",
+				"imgalt": "Airborne Website image",
+				"caption": {
+					"title": "Airborne",
+					"about": "Web design &amp; Front End Development",
+					"url": "http://airbornehq.com/"
+				}
+			},
+			"five": {
+				"img": "assets/img/freelance/key.jpg",
+				"imgalt": "Key building supplies website image",
+				"caption": {
+					"title": "Key Building Supplies",
+					"about": "Web design &amp; build plus hosting",
+					"url": "http://www.keybuildingsuppliesltd.com/"
+				}
+			},
+			"six": {
+				"img": "assets/img/freelance/tenmass.jpg",
+				"imgalt": "Tennmass website image",
+				"caption": {
+					"title": "Tennmass",
+					"about": "Web design &amp; build plus hosting",
+					"url": "http://www.tennmass.co.uk/"
+				}
+			},
+			"seven": {
+				"img": "assets/img/freelance/st-marys.jpg",
+				"imgalt": "St Marys website image",
+				"caption": {
+					"title": "St Marys School",
+					"about": "Web design &amp; build plus hosting",
+					"url": "http://www.st-maryscofe.notts.sch.uk/"
+				}
+			},
+			"eight": {
+				"img": "assets/img/freelance/eo.jpg",
+				"imgalt": "Edwinstowe Online",
+				"caption": {
+					"title": "Edwinstowe Online",
+					"about": "Web design &amp; build plus hosting",
+					"url": "http://www.edwinstoweonline.co.uk/"
+				}
+			}
+		}
+	},
+
+	"about": {
+		"title": "About",
+		"text": {
+			"paraone": "I am a UI designer, Front-End Developer, husband and father. Located in Nottinghamshire, in the sunny UK. I am extremely passionate about the web and some would say obsessed about the work I do.",
+			"paratwo": "I live with my wonderful wife Emma and my amazing daughter Tilly.",
+			"parathree": "I can't take all the credit though, my wife manages all the boring stuff for me like filling in my tax returns. She also looks after my freelance clients and the content side of the freelance projects including, image editing, content updates plus much more..."
+		}
+	},
+
+	"team": {
+		"title": "The Team"
+	}
+
+}

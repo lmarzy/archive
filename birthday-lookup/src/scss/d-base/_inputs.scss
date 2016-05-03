@@ -1,0 +1,83 @@
+$input-border-width 		: 0 0 1px 0;
+$input-border-style 		: solid;
+$input-height 					: toEm(48px);
+$input-padding					: 0 toEm(10px);
+
+$placeholder-colour 		: purple;
+
+@if $inputs {
+	
+/* ==========================================================================
+   BASE - INPUTS
+   ========================================================================== */
+
+	select, textarea, input[type=text] {
+		width: 100%;
+		height: $input-height;
+		padding: $input-padding;
+		border-width: $input-border-width;
+		border-style: $input-border-style;
+		border-color: colour(main, borders);
+		border-radius: 0;
+		vertical-align: middle;
+		-webkit-appearance: none;
+
+			&:focus, &:valid {
+				outline: none;
+
+					&~ label {
+						top: toRem(-8px);
+						font-size: toRem(14px);
+						color: colour(brand, a);
+					}
+
+					&~ .group__bar:before, &~ .group__bar:after {
+						width: 50%;
+					}
+			}
+
+			&:hover {}
+
+	}
+
+	:-moz-placeholder {
+	    	color: $placeholder-colour;
+	}
+	::-webkit-input-placeholder {
+	    color: $placeholder-colour;
+	}
+
+	input[type="checkbox"],
+	input[type="radio"] {
+		width: auto;
+		margin-right: toRem(4px);
+	}
+
+	input[disabled],
+	select[disabled],
+	textarea[disabled],
+	input[readonly],
+	select[readonly],
+	textarea[readonly] {
+		cursor: default;
+		opacity : .25;
+	}
+
+} // END IF
+
+// typical form markup
+// <form>
+// 	<fieldset>
+// 		<legend></legend>
+// 		<ul>
+// 			<li>
+// 				<label></label>
+// 				<input type="text">
+// 			</li>
+// 			<li>
+// 				<label></label>
+// 				<input type="text">
+// 			</li>
+// 		</ul>
+// 	</fieldset>
+// </form>

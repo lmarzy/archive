@@ -1,0 +1,13 @@
+/* ==========================================================================
+   COMPONENTS/TEMPLATE - FOOTER
+   ========================================================================== */
+
+.l-footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: $base-spacing / 2;
+	background: darken(colour(main, bg),20);
+	color: lighten(colour(brand, a),20);
+}

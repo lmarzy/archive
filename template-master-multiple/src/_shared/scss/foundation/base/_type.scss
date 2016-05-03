@@ -1,0 +1,31 @@
+/* ==========================================================================
+   BASE - TYPE
+   ========================================================================== */
+
+p {
+	margin: 0 0 $spacing 0;
+}
+
+blockquote {
+	font-style:italic;
+	border-left: 1px solid gray;
+	color: gray;
+	padding-left: $spacing;
+	margin-bottom: $spacing;
+}
+
+abbr {
+	border-bottom: 1px dotted colour(texture, borderColour);
+	cursor: help;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	background: colour(texture, borderColour);
+	margin: $spacing 0;
+}
+
+small {
+	font-size: 80%;
+}

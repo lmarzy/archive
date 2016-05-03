@@ -1,0 +1,27 @@
+/* ==========================================================================
+   COMPONENTS - LIST UPCOMING
+   ========================================================================== */
+
+.list-upcoming {
+	margin: 0;
+	@include cf;
+
+		&__name, &__date {
+			float: left;
+			width: 50%;
+			height: toRem(48px);
+			line-height: toRem(48px);
+			padding: 0 toRem(12px);
+			border-bottom: 1px solid darken(colour(main, borders),5);
+
+				&:last-of-type {
+					border: none;
+				}
+		}
+	
+		&__date {
+			text-align: right;
+			margin: 0;
+		}
+
+}

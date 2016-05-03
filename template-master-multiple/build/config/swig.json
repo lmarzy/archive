@@ -1,0 +1,12 @@
+[
+
+	{
+		"taskName": "swig:dash",
+		"data": "../../src/dash/templates/data/index",
+		"dirs": {
+			"src": "./src/dash/templates/pages/**/*.swig",
+			"dest": "dist/"
+		}
+	}
+	
+]

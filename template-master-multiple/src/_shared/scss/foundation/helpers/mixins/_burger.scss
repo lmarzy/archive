@@ -1,0 +1,52 @@
+// MIXIN - BURGER
+
+@mixin burger($bgColour, $bgLine, $bgLineActive) {
+	position: relative;
+	display: block;
+	width: toRem(60px);
+	height: toRem(48px);
+	background-color: $bgColour;
+
+		span:first-child, &:before, &:after {
+			@extend %pseudos;
+			left: toRem(12px);
+			right: toRem(12px);
+			height: toRem(6px);
+			background: $bgLine;
+			border-radius: $border-radius;
+			transition: top 300ms 600ms ease, bottom 300ms 600ms ease, transform 300ms ease;
+		}
+		span:first-child {
+			top: 50%;
+			margin-top: toRem(-3px);
+		}
+		&:before {
+			top: toRem(10px);
+		}
+		&:after {
+			bottom: toRem(10px);
+		}
+
+		.nav-is-active & {
+			&:before, &:after {
+				background: $bgLineActive;
+				transition: top 300ms ease, bottom 300ms ease, transform 300ms 600ms ease;
+			}
+
+			span:first-child {
+				background: transparent;
+			}
+
+			&:before {
+				top: 50%;
+				margin-top: toRem(-3px);
+				transform: rotate(45deg);
+			}
+
+			&:after {
+				bottom: 50%;
+				margin-bottom: toRem(-3px);
+				transform: rotate(-45deg);
+			}
+		}
+}

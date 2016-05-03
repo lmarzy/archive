@@ -1,0 +1,25 @@
+// CONFIG - SITE SPECIFIC COLOURS
+
+$pallette: (
+
+	root: (
+		bgBody 							: hsl(60, 2%, 92%),
+		textColour 					: hsl(199, 20%, 37%)
+	),
+
+	links: (
+		linkColour 					: inherit
+	),
+
+	brand: (
+		a 									: hsl(187, 99%, 45%),
+		b 									: hsl(195, 16%, 19%),
+		c 									: hsl(11, 99%, 72%),
+		d 									: hsl(213, 4%, 51%) 
+	),
+
+	texture: (
+		borderColour        : hsl(60, 2%, 92%)
+	)
+
+);

@@ -1,0 +1,14 @@
+// UTILITY CLASSES/EXTENDS layout
+   
+// main wrap class
+%l-wrap, .l-wrap {
+	width: 96%;
+	max-width: $max-width;
+	margin: 0 auto;
+}
+
+//grid wrap class
+.grid-wrap {
+	margin-left: -$gutter;
+	@include cf;
+}

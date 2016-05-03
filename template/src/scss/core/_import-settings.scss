@@ -1,0 +1,37 @@
+// import-settings.scss - file to import all setting scss files
+
+// functions
+@import "a-settings/functions/px-to-em";
+@import "a-settings/functions/px-to-rem";
+@import "a-settings/functions/rgba";
+@import "a-settings/functions/colour";
+@import "a-settings/functions/z-index";
+
+// variables
+	
+	// page
+	@import "a-settings/variables/page/page";
+	@import "a-settings/variables/page/spacing";
+	@import "a-settings/variables/page/colours";
+	@import "a-settings/variables/page/texture";
+
+	// base
+	@import "a-settings/variables/base/typography";
+	@import "a-settings/variables/base/forms";
+
+	// modules
+	@import "a-settings/variables/modules/buttons";
+	@import "a-settings/variables/modules/panels";
+	@import "a-settings/variables/modules/alerts";
+
+	// other
+	@import "a-settings/variables/other/breakpoints";
+	@import "a-settings/variables/other/misc";
+
+// config
+@import "a-settings/config/colours";
+@import "a-settings/config/media-queries";
+@import "a-settings/config/z-index";
+
+// font-face
+@import "a-settings/font-face";

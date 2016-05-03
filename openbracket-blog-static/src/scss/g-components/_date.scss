@@ -1,0 +1,13 @@
+/* ==========================================================================
+   COMPONENTS - DATE
+   ========================================================================== */
+
+.c-date {
+    display: block;
+
+    font-size: toRem(14px);
+    text-transform: uppercase;
+    
+    color: darken(colour(brand, b),25);
+    border-bottom: 1px solid colour(main, borders);     
+}

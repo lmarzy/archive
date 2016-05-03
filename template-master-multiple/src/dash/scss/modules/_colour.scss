@@ -1,0 +1,16 @@
+/* ==========================================================================
+   MODULES - COLOUR
+   ========================================================================== */
+
+.colours {
+	margin-bottom: $spacing;
+	div {
+		padding: toRem(8px);
+		border: 1px solid colour(shades, lightergray);
+	}
+}
+
+.colour {
+	display: block;
+	height: toRem(100px);
+}

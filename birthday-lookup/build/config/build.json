@@ -1,0 +1,13 @@
+{
+	"taskName": "default",
+	"initial": "clean",
+	"swig": "swig",
+	"tasks": [
+		"sass",
+		"cssAssets",
+		"js",
+		"img",
+		"copyJson"
+	],
+	"end": "inject"
+}

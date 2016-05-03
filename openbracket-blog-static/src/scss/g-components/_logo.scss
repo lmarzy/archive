@@ -1,0 +1,30 @@
+/* ==========================================================================
+   COMPONENTS - LOGO
+   ========================================================================== */
+
+.c-logo {
+    @include vr(22px, 2);
+    color: white;
+    opacity: .6;
+
+        &__item {
+            display: inline-block;
+
+                &:first-child {
+                    @include animation(slideLeft 800ms ease);
+                }
+                
+                &:nth-child(2) {
+                    @include animation(fadeSpin 1600ms ease);
+                }
+
+                &:last-child {
+                    @include animation(slideRight 800ms ease);
+                }
+        }
+
+        @include bp(10) {
+            @include vr(28px, 1);
+        }
+
+}

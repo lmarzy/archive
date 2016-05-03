@@ -1,0 +1,44 @@
+// SETTINGS - COLOURS
+
+$colours: (
+	
+	main: (
+		bg 										: hsl(187, 100%, 42%),
+		text 			 						: hsl(0, 0%, 56%),
+		links 								: inherit,
+		borders 		  				: hsl(0, 0%, 88%)
+	),
+
+	brand: (
+		a 										: hsl(44, 80%, 78%),
+		b 										: hsl(199, 18%, 33%)
+	),
+
+	shades: (
+		white 								: hsl(0, 0%, 100%),
+		black 								: hsl(0, 0%, 0%)
+	),
+
+	alerts: (
+  	info 									: hsl(200, 65%, 91%),
+		warn 									: hsl(35, 84%, 62%),
+		error 								: hsl(6, 73%, 50%),
+		success 							: hsl(120, 39%, 54%)
+	),
+	
+	social: (
+		facebook            	: hsl(221, 44%, 41%),
+		twitter             	: hsl(196, 100%, 46%),
+		google              	: hsl(7, 71%, 55%),
+		instagram           	: hsl(207, 34%, 48%)
+	),
+
+	tech: (
+		youtube             	: hsl(0, 100%, 37%),
+		html                	: hsl(31, 97%, 62%),
+		css                 	: hsl(196, 66%, 41%),
+		js                  	: hsl(41, 94%, 65%),
+		misc                	: hsl(0, 0%, 45%)
+	)
+
+);

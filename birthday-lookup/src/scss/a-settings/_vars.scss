@@ -1,0 +1,55 @@
+// SETTINGS - VARIABLES
+
+// type
+$font-size 										: 16px;
+$line-height 									: 24px;
+
+$fontUrl 				 							: 'http://fonts.googleapis.com/css?family=Dosis:400,700|Alex+Brush' rel='stylesheet' type='text/css';
+
+$fontFamily--alt 							: Cambria, Georgia, Times, "Times New Roman";
+$fontFamily--code 						: Monaco, Courier New, monospace;
+
+// spacings
+
+$base-spacing 								: $line-height / $font-size * 1rem; 
+$base-spacing-half 						: $base-spacing / 2;
+
+// paths
+
+$imgPath 											: 'assets/img';
+$fontPath 										: 'assets/fonts';
+
+// imports
+
+// base
+$blockquotes									: false;
+$embedded 										: false;
+$headings 										: true;
+$inputs 											: true;
+$labels 											: true;
+$links  											: false;
+$lists 			 									: true;
+$paragraphs 									: true;
+$tables 											: true;
+
+// objects
+$o-buttons 										: true;
+$o-grids 				 							: true;
+$o-grids-classes 							: false;
+$o-lists 											: true;
+$o-nav 												: false;
+$o-valign 										: false;
+$o-wrapper 										: true;
+
+// nav 
+$nav-site 										: false;
+
+// utilities/helpers
+$helper-colours 							: false;
+$helper-flex 									: false;
+$helper-layout 								: false;
+$helper-state 								: true;
+$helper-type 									: false;
+$helper-spacings 							: true;
+$helper-visibility-classes 		: false;
+$helper-other 								: false;

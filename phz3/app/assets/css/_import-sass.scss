@@ -1,0 +1,21 @@
+// Site 					: Responsive Template with SASS
+// CSS author 		: Lee Marsden
+// Updated body 	: Lee Marsden
+// Site CSS File 	: IMPORT-SASS - sass imports for variable, functions and mixins
+
+/* ==========================================================================
+		SASS IMPORTS
+	 ========================================================================== */
+
+// functions
+@import "sass/functions/font-size";
+
+// variables
+@import "sass/vars";
+
+// mixins
+@import "sass/mixins/typography";
+@import "sass/mixins/visibility";
+@import "sass/mixins/grids";
+@import "sass/mixins/css3";
+@import "sass/mixins/misc";

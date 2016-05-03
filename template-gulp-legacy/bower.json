@@ -1,0 +1,16 @@
+{
+  "name": "template",
+  "version": "0.0.1",
+  "authors": [
+    "Lee Marsden"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower/",
+    "test",
+    "tests"
+  ]
+}

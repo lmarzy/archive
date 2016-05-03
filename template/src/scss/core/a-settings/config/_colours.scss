@@ -1,0 +1,42 @@
+// ------------------------------------------------------------------------------------------------------------------------//
+// COLOURS
+// ------------------------------------------------------------------------------------------------------------------------//
+
+$colours: (
+    brand: (
+    	a 						       		: $colour-a,
+			b 		         					: $colour-b
+    ),
+    shades: (
+			white 									: $shades,
+			lightergray 						: darken($shades,10),
+			lightgray  							: darken($shades,20),
+			gray 			 							: darken($shades,30),
+			darkergray 							: darken($shades,40),
+			darkgray 								: darken($shades,50),
+			black 									: hsl(0, 0%, 0%)
+    ),
+    links: (
+    	link 										: $colour-link,
+			link-hover 							: $colour-link--hover
+    ),
+    alerts: (
+    	info 										: $colour-info,
+			warn 										: $colour-warn,
+			error 									: $colour-error,
+			success 								: $colour-success
+    ),
+    social: (
+      facebook                : $colour-facebook,
+      twitter                 : $colour-twitter,
+      google                  : $colour-google,
+      instagram               : $colour-instagram,
+      youtube                 : $colour-youtube
+    ),
+    techType: (
+      html                    : $colour-html,
+      css                     : $colour-css,
+      js                      : $colour-js,
+      misc                    : $colour-misc
+    )
+);

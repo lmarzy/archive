@@ -1,0 +1,40 @@
+// VARIABLES - GLOBAL
+
+// type
+$fontFamily 						: sans-serif;
+$fontFamily--alt 				: Cambria, Georgia, Times, "Times New Roman";
+$fontFamily--code 			: Monaco, Courier New, monospace;
+// $fontUrl--google 				: '';
+$font--size 						: 16px;
+$font--lineHeight 			: 24px;
+
+$spacing 								: ($font--lineHeight / $font--size) * 1rem;
+
+// headings
+$heading--fontFamily 		: inherit;
+$heading--fontWeight 		: 700;
+
+// links
+$link--transition 			: 300ms;
+
+// forms
+$label--marginBottom 		: $spacing / 6;
+$form--width 						: 100%;
+$form--border 					: none;
+$form--padding					: (6px / $font--size * 1em) (10px / $font--size * 1em);
+
+// buttons
+$btn-tiny 							: 11px / $font--size * 1em;
+$btn-small 							: 13px / $font--size * 1em;
+$btn-large 							: 20px / $font--size * 1em;
+$btn-huge 							: 26px / $font--size * 1em;
+
+// tables
+$table--padding 				: $spacing / 4;
+$tableBorder 						: 1px solid colour(texture, border);
+
+// misc
+$transition-duration 		: 250ms;
+$img-path 							: 'assets/img';
+$font-path 							: 'assets/fonts';
+$border-radius 					: 6px / $font--size * 1rem;

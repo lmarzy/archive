@@ -1,0 +1,42 @@
+/* ==========================================================================
+   COMPONENTS - POST
+   ========================================================================== */
+
+.c-post {
+    padding: $base-spacing;
+    
+    border-left-width: 4px;
+    border-left-style: solid;
+
+    &--html {
+        border-left-color: colour(tech, html);
+    }
+    &--css {
+        border-left-color: colour(tech, css);
+    }
+    &--js {
+        border-left-color: colour(tech, js);
+    }
+    &--misc {
+        border-left-color: colour(tech, misc);
+    }
+    
+    &__date {
+        margin-bottom: $base-spacing-half;
+    }
+
+    &__author {
+        float: right;
+        margin-top: toRem(-34px);
+    }
+
+    &__title {
+        margin-bottom: $base-spacing-half;
+        font-size: toRem(24px);
+
+            @include bp(10) {
+                font-size: toRem(28px);
+            }
+    }
+
+}

@@ -1,0 +1,12 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : CLASSES/UTILITY-CLASSES - utility classes - use sparingly
+
+/* ==========================================================================
+   CLASSES STYLES
+   ========================================================================== */
+
+.visuallyhidden {
+	@include visuallyhidden;
+}

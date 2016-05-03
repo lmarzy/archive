@@ -1,0 +1,47 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : GENERIC/TYPOGRAPHY - generic typographic styles
+
+/* ==========================================================================
+   TYPOGRAPHY STYLES
+   ========================================================================== */
+
+
+// Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+
+strong {
+    font-weight: bold;
+}
+
+// Address differences between Firefox and other browsers.
+
+hr {
+    display: block;
+    height: 1px;
+    padding: 0;
+    margin: 1.5rem 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+// Address inconsistent and variable font size in all browsers.
+
+small {
+    font-size: $small-font;
+    font-weight : normal;
+    line-height : 1;
+    color : lighen($text-colour,10);
+}
+
+
+h1, h2 {
+ 	font-size: 100%;
+ 	font-family: $heading-font-family;
+	margin: 0;
+	text-rendering: optimizelegibility;
+}
+
+p,ol,ul {
+	margin: 0 0 $spacing 0;
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "taskName": "Wireframe",
+    "complete": false
+  },
+  {
+    "taskName": "Mock",
+    "complete": false
+  },
+  {
+    "taskName": "Custom fonts added",
+    "complete": false
+  },
+  {
+    "taskName": "Custom icons added",
+    "complete": false
+  },
+  {
+    "taskName": "Build script updated",
+    "complete": false
+  },
+  {
+    "taskName": "Images exported",
+    "complete": false
+  },
+  {
+    "taskName": "Swig partials updated/added",
+    "complete": false
+  },
+  {
+    "taskName": "Swig data added",
+    "complete": false
+  },
+  {
+    "taskName": "Document outline defined",
+    "complete": false
+  },
+  {
+    "taskName": "Sass settings updated",
+    "complete": false
+  },
+  {
+    "taskName": "Sass modules",
+    "complete": false
+  },
+  {
+    "taskName": "Sass components",
+    "complete": false
+  },
+  {
+    "taskName": "JS needed",
+    "complete": false
+  },
+  {
+    "taskName": "JS Behaviour",
+    "complete": false
+  },
+  {
+    "taskName": "Favicon added",
+    "complete": false
+  },
+  {
+    "taskName": "Functional tests wrote",
+    "complete": false
+  },
+  {
+    "taskName": "Unit tests wrote",
+    "complete": false
+  },
+  {
+    "taskName": "Meta data updated",
+    "complete": false
+  },
+  {
+    "taskName": "Published",
+    "complete": false
+  }
+]

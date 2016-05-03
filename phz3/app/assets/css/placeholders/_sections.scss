@@ -1,0 +1,15 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : PLACEHOLDERS/SECTIONS - placeholdes for sections
+
+/* ==========================================================================
+   PLACEHOLDERS FOR SECTIONS
+   ========================================================================== */
+
+%section-variant {
+	background: $secondary-colour;
+	border-width: 1px 0 1px 0;
+	border-style: solid;
+	border-color: $border-colour;
+}

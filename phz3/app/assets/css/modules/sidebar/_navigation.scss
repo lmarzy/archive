@@ -1,0 +1,29 @@
+// Site 					: Responsive Template with SASS
+// CSS author 		: Lee Marsden
+// Updated body 	: Lee Marsden
+// Site CSS File 	: MODULES/SIDEBAR/NAVIGATION - styles for the main site navigaiton
+
+/* ==========================================================================
+		NAVIGATION MODULE STYLES
+	 ========================================================================== */
+
+[role="navigation"] {
+
+		li {
+			border-bottom: 1px solid $sidebar-border;
+		}
+		a {
+			display: block;
+			padding: toRem(10px) toRem(16px);
+			color: lighten($primary-colour,25);
+
+				transition: all 250ms ease-in;
+
+				&:hover, &:focus {
+					color: $primary-colour;
+					transform: translateX(toRem(4px));
+					text-decoration: none;
+				}
+		}
+
+}

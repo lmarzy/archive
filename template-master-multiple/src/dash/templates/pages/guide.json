@@ -1,0 +1,30 @@
+{
+  	"metaTitle": "meta-title",
+  	"metaDescription" : "Meta Description - needs updating",
+  	
+  	"pageName": "Style Guide",
+
+  	"sections": {
+
+  		"typography": {
+  			"fontFamily": "font family",
+  			"fontSize": "100% (16px)",
+  			"lineHeight": "1.5 (24px)"
+  		},
+
+      "palette": {
+        "root": {
+          "bgBody": "#ffffff",
+          "textColour": "#333333"
+        },
+        "texture": {
+          "border": ""
+        },
+        "brand": [
+          "#000000",
+          "#ffffff"
+        ]
+      }
+
+  	}
+}  

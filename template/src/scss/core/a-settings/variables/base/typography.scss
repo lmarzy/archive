@@ -1,0 +1,20 @@
+// TYPOGRAPHY
+
+$base-font-family 							: sans-serif; // to be updated
+$base-font-size 								: 100%;
+$base-line-height 							: 1.5;
+
+$alt-font												: Cambria, Georgia, Times, "Times New Roman";
+$alt-line-height								: 1.35em;
+
+$code-font											: Monaco, Courier New, monospace;
+
+$small-font 										: toRem(14px);
+$large-font 										: toRem(18px);
+
+// headings
+
+$heading-font-family 						: inherit;
+$heading-font-weight 						: 700;
+
+// $font-url--google        				: '';

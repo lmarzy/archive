@@ -1,0 +1,11 @@
+// GRIDS
+
+@mixin grid($x, $y: 1) {
+	float 				: left;
+	width 				: ($full-width / $x) * $y;
+	padding-left 	: $gutter;
+}
+
+@mixin grid-width($x, $y: 1) {
+	width: ($full-width / $x) * $y;
+}

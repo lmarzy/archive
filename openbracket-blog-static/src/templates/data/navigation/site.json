@@ -1,0 +1,16 @@
+[
+
+    {
+        "linkName": "LinkedIn",
+        "linkUrl": "http://www.linkedin.com/pub/lee-marsden/1b/278/980",
+        "linkicon": "linkedin2",
+        "linktitle": "Connect with me on LinkedIn"
+    },
+    {
+        "linkName": "Twitter",
+        "linkUrl": "https://twitter.com/#!/phzthree",
+        "linkicon": "twitter",
+        "linktitle": "Follow me on Twitter"
+    }
+
+]

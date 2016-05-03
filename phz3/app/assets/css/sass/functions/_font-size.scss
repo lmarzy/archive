@@ -1,0 +1,10 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : FUNCTIONS/FONT-SIZE - sass function for controlling font size
+
+// SASS FUNCTIONS
+
+@function toRem($px-size, $base-size: 16px) {
+	@return $px-size / $base-size * 1rem;
+}

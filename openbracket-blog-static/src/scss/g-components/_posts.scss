@@ -1,0 +1,26 @@
+/* ==========================================================================
+   COMPONENTS - POSTS
+   ========================================================================== */
+
+.c-posts {
+    position: relative;
+
+    margin-bottom: $base-spacing;
+
+        &__title {
+            padding: $base-spacing-half;
+
+            text-transform: uppercase;
+
+            background: colour(brand, b);
+            border-bottom: 1px solid colour(main, borders);
+            border-left: 4px solid colour(main, borders);
+            color: darken(colour(brand, b),30);
+        }
+
+        &__count {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+}

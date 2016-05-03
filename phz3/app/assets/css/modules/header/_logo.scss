@@ -1,0 +1,20 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MODULES/HEADER/LOGO - styles for logo
+
+/* ==========================================================================
+   LOGO MODULE STYLES
+   ========================================================================== */
+
+@keyframes fade-in {
+	from 	{ opacity: 0; }
+	to 		{ opacity: 1; }
+}
+
+.logo {
+	margin: $spacing 0;
+
+		animation: fade-in 2000ms ease-in;
+		
+}

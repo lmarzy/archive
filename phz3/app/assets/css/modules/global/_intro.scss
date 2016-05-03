@@ -1,0 +1,17 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MODULES/GLOBAL/INTRO - styles for intro text on each section
+
+/* ==========================================================================
+   INTRO MODULE STYLES
+   ========================================================================== */
+
+.intro {
+	@media #{$bp-10} {
+		font-size: toRem(18px);
+	}
+	@media #{$bp-15} {
+		padding: 0 toRem(60px);
+	}
+}

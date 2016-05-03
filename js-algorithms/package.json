@@ -1,0 +1,24 @@
+{
+  "name": "playing-browserify",
+  "version": "1.0.0",
+  "description": "Page to learn/play with browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmarzy/playing-browserify.git"
+  },
+  "author": "Lee Marsden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmarzy/playing-browserify/issues"
+  },
+  "homepage": "https://github.com/lmarzy/playing-browserify#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

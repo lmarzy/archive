@@ -1,0 +1,30 @@
+{
+  "name": "Template",
+  "version": "0.0.1",
+  "description": "Mater starter template for all web projects",
+  "repository": "https://github.com/lmarzy/template.git",
+  "devDependencies": {
+    "browser-sync": "*",
+    "del": "^0.1.3",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-cache": "*",
+    "gulp-cssmin": "*",
+    "gulp-gh-pages": "*",
+    "gulp-if": "*",
+    "gulp-imagemin": "*",
+    "gulp-jshint": "*",
+    "gulp-load-plugins": "*",
+    "gulp-minify-html": "*",
+    "gulp-rev": "*",
+    "gulp-rev-replace": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-size": "*",
+    "gulp-swig": "*",
+    "gulp-uglify": "*",
+    "gulp-uncss": "*",
+    "gulp-useref": "*",
+    "jshint-stylish": "*",
+    "run-sequence": "*"
+  }
+}

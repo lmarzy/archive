@@ -1,0 +1,9 @@
+// CONFIG - SITE SPECIFIC BREAKPOINTS
+
+$breakpoints: (
+
+	10: toRem(1000px),
+	20: toRem(1200px),
+	30: toRem(1600px)
+
+);

@@ -1,0 +1,25 @@
+@if $helper-layout {
+
+/* ==========================================================================
+   UTILITIES/HELPERS - LAYOUT
+   ========================================================================== */
+
+	.inline       	{ display: inline!important; }
+	.block        	{ display: block!important; }
+	.inline-block 	{ display: inline-block!important; }
+
+	.overflow-hidden { overflow: hidden!important; }
+	.overflow-scroll { overflow: scroll!important; }
+	.overflow-auto   { overflow: auto!important; }
+
+	.cf { @include cf; }
+
+	.fl { float: left!important; }
+	.fr { float: right!important; }
+
+	.fit { max-width: 100%!important; }
+
+	.half-width { width: 50%!important; }
+	.full-width { width: 100%!important; }
+
+} // END IF

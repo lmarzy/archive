@@ -1,0 +1,30 @@
+// MIXIN - TABLE RESPONSIVE
+
+@mixin table-responsive($bpMax) {
+
+	@include bp($bpMax, max) {
+
+		table, thead, tbody, tr, th, td {
+			display: block;
+		}
+
+		thead tr {
+			@include vh;
+		}
+		td {
+			position: relative;
+			padding: toRem(12px) 0 toRem(4px) 70%;
+
+				&:before {
+					position: absolute;
+					top: toRem(12spx);
+					left: 0;
+					width: 25%;
+					white-space: nowrap;
+					content: attr(title);
+				}
+		}
+
+	}
+
+}

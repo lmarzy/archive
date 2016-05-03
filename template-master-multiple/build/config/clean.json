@@ -1,0 +1,16 @@
+[
+
+	{
+		"taskName": "clean:dash",
+		"filesDirs": [
+			"dist/dash",
+			"dist/index.html"
+		]
+	},
+
+	{
+		"taskName": "clean:all",
+		"filesDirs": "dist"
+	}
+
+]

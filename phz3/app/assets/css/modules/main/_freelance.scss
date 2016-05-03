@@ -1,0 +1,79 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MODULES/MAIN/FREELANCE - styles for freelance section images
+
+/* ==========================================================================
+   FREELANCE MODULE STYLES
+   ========================================================================== */
+
+
+.freelance--client {
+	display: inline-block;
+	position: relative;
+	margin-bottom: $spacing;
+	overflow: hidden;
+	border: 6px solid $border-colour;
+	border-radius: $border-radius;
+
+		img {
+			transition: all 250ms ease-in;
+		}
+
+		figcaption {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: $spacing / 2 0;
+			background: rgba($white,0.9);
+			opacity: 0;
+			transition: opacity 250ms ease-in;
+		}
+
+		&:hover {
+			img {
+				transform: scale(1.1);
+			}
+			figcaption {
+				opacity: 1;
+			}
+			.freelance--client-heading {
+				transform: translateY(0);
+			}
+		}
+}
+
+.freelance--latest {
+	margin-bottom: $spacing * 2;
+
+		.freelance--client-heading { margin: $spacing 0; }
+		.freelance--client-about { margin-bottom: $spacing; }
+}
+
+.freelance--client-heading {
+	display: block;
+	padding: toRem(10px) 0;
+	margin-bottom: $spacing / 3;
+	background: darken($secondary-colour,70);
+	color: $white;
+	transform: translateY(toRem(-60px));
+		
+		transition: all 400ms ease-in;
+}
+
+.freelance--client-about {
+	display: block;
+	margin-bottom: $spacing / 2;
+	padding: 0 toRem(8px);
+	color: $black;
+}
+
+a.freelance--client-view {
+	display: inline-block;
+	padding: toRem(8px) toRem(14px);
+	background: $link-colour;
+	border-radius: $border-radius;
+	color: $white;
+}

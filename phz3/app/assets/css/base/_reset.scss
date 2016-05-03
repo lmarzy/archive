@@ -1,0 +1,30 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : BASE/RESET - mini global reset
+
+/* ==========================================================================
+   GLOBAL MINI RESET
+   ========================================================================== */
+
+/*----- HTML5 display definitions -----*/
+
+// Correct `block` display not defined in IE 8/9.
+
+main {
+    display: block;
+}
+
+// Global mini reset
+
+body,
+h1,
+h2 {
+  margin:0;
+  padding:0;
+}
+
+ul, ol {
+	padding: 0;
+	list-style: none;
+}

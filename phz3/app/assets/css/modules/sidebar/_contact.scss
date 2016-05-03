@@ -1,0 +1,24 @@
+// Site 					: Responsive Template with SASS
+// CSS author 		: Lee Marsden
+// Updated body 	: Lee Marsden
+// Site CSS File 	: MODULES/SIDEBAR/CONTACT - styles for contact me details
+
+/* ==========================================================================
+		CONTACT MODULE STYLES
+	 ========================================================================== */
+
+.contact, .connect {
+	padding: 0 toRem(16px);
+
+		h1 { margin-bottom: $spacing / 2; }
+
+		li { margin-bottom: toRem(8px); }
+		span { margin-right: toRem(12px); }
+}
+
+.contact {
+	border-bottom: 1px solid $border-colour;
+	margin-bottom: $spacing;
+
+		li { font-size: toRem(18px); }
+}

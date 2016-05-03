@@ -1,0 +1,13 @@
+/* ==========================================================================
+   BASE - LINKS
+   ========================================================================== */
+
+a {
+	background-color: transparent;
+  color: colour(links, linkColour);
+  transition: $link--transition ;
+
+  	&:active, &:hover {
+  		outline: none;
+  	}
+}

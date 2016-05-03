@@ -1,0 +1,8 @@
+[
+
+	{
+		"taskName": "casper:dash",
+		"src": "./tests/functional/casper.js"
+	}
+	
+]

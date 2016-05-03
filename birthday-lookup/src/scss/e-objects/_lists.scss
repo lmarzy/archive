@@ -1,0 +1,17 @@
+@if $o-lists {
+
+/* ==========================================================================
+   OBJECTS - LISTS
+   ========================================================================== */
+
+	.list-unstyled, %list-unstyled {
+		list-style: none;
+	}
+
+	.list-inline, %list-inline {
+		@extend %cf;
+
+			li { float: left; }
+	}
+
+} // END IF

@@ -1,0 +1,26 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MODULES/HEADER/TAGLINE - styles for tagline
+
+/* ==========================================================================
+   TAGLINE MODULE STYLES
+   ========================================================================== */
+
+@keyframes slide-in {
+	from 	{ opacity: 0; transform: translateX(toRem(-60px)); }
+	to 		{ opacity: 1; transform: translateX(0); }
+}
+
+.tagLine {
+	font-size: toRem(22px);
+	
+		animation: slide-in 2000ms ease-in;
+
+		@media #{$bp-05} {
+			font-size: toRem(30px);
+		}
+		@media #{$bp-10} {
+			font-size: toRem(40px);
+		}
+}

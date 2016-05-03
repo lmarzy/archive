@@ -1,0 +1,17 @@
+{
+	"taskName": "serve",
+	"watch": {
+		"swig": {
+			"path": "./src/templates/**",
+			"task": "injectWatch"
+		},
+		"scss": {
+			"path": "./src/scss/**",
+			"task": "sass"
+		},
+		"js": {
+			"path": "./src/js/**",
+			"task": "js"
+		}
+	}
+}

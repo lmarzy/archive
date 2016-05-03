@@ -1,0 +1,24 @@
+// CONFIG - SITE SPECIFIC COLOURS
+
+$pallette: (
+
+	root: (
+		bgBody 							: hsl(0, 0%, 100%),
+		textColour 					: hsl(0, 0%, 24%)
+	),
+
+	links: (
+		linkColour 					: inherit
+	),
+
+	brand: (
+		a 									: gray,
+	),
+
+	texture: (
+		borderColour        : gray
+	)
+
+);
+
+$col: map-merge($colours, $pallette);

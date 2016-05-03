@@ -1,0 +1,74 @@
+$btn-border-width 			: 1px;
+$btn-border-style 			: solid;
+
+$btn-tiny 							: toEm(11px);
+$btn-small 							: toEm(13px);
+$btn-large 							: toEm(22px);
+$btn-huge 							: toEm(26px);
+
+@if $o-buttons {
+
+/* ==========================================================================
+   OBJECTS - BUTTONS
+   ========================================================================== */
+
+	.btn {
+		display: inline-block;
+		width: 100%;
+		height: $input-height;
+		padding: $input-padding;
+		font: inherit;
+		line-height: $input-height;
+		text-align: center;
+		vertical-align: middle;
+		border-width: $btn-border-width;
+		border-style: $btn-border-style;
+		border-radius: setting(misc, borderRadius);
+		color: orange;
+		text-decoration: none;
+		cursor: pointer;
+
+			&:hover, &:active, &:focus &:visited {
+				
+			}
+	}
+
+	.btn--a {
+		background: white;
+		border-color: colour(main, borders);
+		color: lighten(colour(brand, b),20);
+		box-shadow: inset 0 -2px 0 rgba(colour(brand, a), 0.4);
+		transition: box-shadow 250ms ease-in;
+
+			&:hover, &:active, &:focus, &:visited, &.btn-disabled, &[disabled] { 
+				box-shadow: inset 0 -60px 0 rgba(colour(brand, a), 0.4);
+			}
+	}
+
+	// button sizes
+
+	.btn--tiny {
+		font-size: $btn-tiny;
+	}
+
+	.btn--small {
+		font-size: $btn-small;
+	}
+	.btn--large {
+		font-size: $btn-large;
+	}
+
+	.btn--huge {
+		font-size: $btn-huge;
+	}
+
+	// disabled buttons
+
+	button[disabled], .m-btn--disabled {
+		opacity: .4;
+		cursor: default;
+
+			&:hover { opacity: .4; }
+	}
+
+} // END IF

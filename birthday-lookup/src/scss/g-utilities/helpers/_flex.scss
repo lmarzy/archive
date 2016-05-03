@@ -1,0 +1,35 @@
+@if $helper-flex {
+
+/* ==========================================================================
+   UTILITIES/HELPERS - FLEX
+   ========================================================================== */
+
+	.flex {
+		display: flex!important;
+	}
+
+	.flex--column {
+		flex-direction: column!important;
+	}
+
+	.flex--row {
+		flex-direction: row!important;
+	}
+
+	.flex--justify-e {
+		justify-content: flex-end!important;
+	}
+
+	.flex--justify-c {
+		justify-content: center!important;
+	}
+
+	.flex--justify-sb {
+		justify-content: space-between!important;
+	}
+
+	.flex--justify-sa {
+		justify-content: space-around!important;
+	}
+
+} // END IF

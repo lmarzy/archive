@@ -1,0 +1,1 @@
+<h1 class="l-header__logo">{{ global.siteName }}</h1>

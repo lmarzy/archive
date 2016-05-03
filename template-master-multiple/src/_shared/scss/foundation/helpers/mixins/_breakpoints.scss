@@ -1,0 +1,23 @@
+// MIXIN BREAKPOINTS
+
+// Usage
+// @include bp(10) {}
+
+@mixin bp($breakpoint, $direction: min) {
+
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media (#{$direction}-width:#{map-get($breakpoints, $breakpoint)}) {
+
+			@content;
+
+		}
+
+	}
+
+	@else {
+
+		@warn "No value could be retrieved from `#{$breakpoint}`. " + "Please make sure it is defined in `$breakpoints` map. you noob";
+		
+	}
+
+}

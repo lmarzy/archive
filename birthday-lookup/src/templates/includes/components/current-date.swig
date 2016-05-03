@@ -1,0 +1,1 @@
+<time datetime="yyyy-mm-dd" id="current-date" class="l-header__current-date"></time>

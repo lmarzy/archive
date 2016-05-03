@@ -1,0 +1,16 @@
+// ANIMATIONS - SITE SPECIFIC
+
+@include keyframes(slideLeft) {
+  0% 		{ opacity: 0; transform: translateX(-60px) }
+  100% 	{ opacity: 1; transform: translateX(0); }
+}
+
+// // @include keyframes(slideRight) {
+// //   0% 		{ opacity: 0; transform: translateX(40px) }
+// //   100% 	{ opacity: 1; transform: translateX(0); }
+// // }
+
+
+// @include keyframes(burger) {
+//   100% 	{ transform: none; opacity: 1; }
+// }

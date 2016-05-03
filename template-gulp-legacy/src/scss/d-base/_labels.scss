@@ -1,0 +1,15 @@
+$label-display 					: block;
+$label-marginBottom 		: $base-spacing / 4;
+
+@if $labels {
+	
+/* ==========================================================================
+   BASE - LABELS
+   ========================================================================== */
+
+	label {
+		display: $label-display;
+	  margin-bottom: $label-marginBottom;
+	}
+
+} // END IF

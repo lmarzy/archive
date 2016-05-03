@@ -1,0 +1,37 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : LAYOUT/MAIN - layout styles for main
+
+/* ==========================================================================
+   MAIN LAYOUT STYLES
+   ========================================================================== */
+
+.l-clients li, .l-freelance li {
+	@include column(1);
+
+		@media #{$bp-05} {
+			@include column-width(2);
+		}
+		@media #{$bp-15} {
+			@include column-width(4);
+		}
+
+}
+
+.l-me, .l-emma {
+	@extend %col-one;
+
+		@media #{$bp-10} {
+			@include column-width(2);
+		}
+}
+
+.l-latestWork--title, .l-latestWork--info {
+	@extend %col-one;
+
+		@media #{$bp-10} {
+			@include column-width(2);
+		}
+
+}

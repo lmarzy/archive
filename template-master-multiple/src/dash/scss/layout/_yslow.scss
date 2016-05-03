@@ -1,0 +1,35 @@
+/* ==========================================================================
+   LAYOUT -YSLOW
+   ========================================================================== */
+
+.l-yslow-size {
+	@extend %grid-one-half;
+
+		@include bp(10) {
+			@include grid(4);
+		}
+}
+
+.l-yslow-score {
+	@extend %grid-one-half;	
+
+		@include bp(10) {
+			@include grid(4);
+		}
+}
+
+.l-yslow-requests {
+	@extend %grid-one-half;
+
+		@include bp(10) {
+			@include grid(4);
+		}
+}
+
+.l-yslow-loadtime{
+	@extend %grid-one-half;
+
+		@include bp(10) {
+			@include grid(4);
+		}
+}

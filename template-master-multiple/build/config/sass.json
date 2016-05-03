@@ -1,0 +1,11 @@
+[
+
+	{
+		"taskName": "sass:dash",
+		"dirs": {
+			"src": "./src/dash/scss/main.scss",
+			"dest": "dist/dash/css/"
+		}
+	}
+	
+]

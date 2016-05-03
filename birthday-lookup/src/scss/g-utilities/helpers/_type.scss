@@ -1,0 +1,19 @@
+@if $helper-type {
+
+/* ==========================================================================
+   UTILITIES/HELPERS - TYPOGRAPHY
+   ========================================================================== */
+
+	.bold    	{ font-weight: 700!important; }
+	.regular 	{ font-weight: normal!important; }
+	.italic  	{ font-style: italic!important; }
+	.caps    	{ text-transform: uppercase!important; letter-spacing: .2em; }
+
+	.left-align   { text-align: left!important; }
+	.center       { text-align: center!important; }
+	.right-align  { text-align: right!important; }
+	.justify      { text-align: justify!important; }
+
+	.nowrap { white-space: nowrap!important; }
+
+} // END IF

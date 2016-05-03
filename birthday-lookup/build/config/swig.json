@@ -1,0 +1,8 @@
+{
+	"taskName": "swig",
+	"data": "../../src/templates/data/index",
+	"dirs": {
+		"src": "./src/templates/pages/**/*.swig",
+		"dest": "dist/"
+	}
+}

@@ -1,0 +1,52 @@
+// Site          : Master starter templagte
+// CSS author    : Lee Marsden
+// Site CSS File : site.scss - used to import all other scss files for the site
+
+@import "a-settings/_imports";
+@import "b-tools/_imports";
+@import "c-generic/_imports";
+@import "d-base/_imports";
+@import "e-objects/_imports";
+@import "f-layout/_imports";
+@import "g-components/_imports";
+@import "h-utilities/_imports";
+
+
+// css rules
+
+// Decleration order
+    //position
+    //box model
+    //typographic
+    //visual
+
+//e.g.
+// .declaration-order {
+//   /* Positioning */
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   z-index: 100;
+
+//   /* Box-model */
+//   display: block;
+//   float: right;
+//   width: 100px;
+//   height: 100px;
+
+//   /* Typography */
+//   font: normal 13px "Helvetica Neue", sans-serif;
+//   line-height: 1.5;
+//   color: #333;
+//   text-align: center;
+
+//   /* Visual */
+//   background-color: #f5f5f5;
+//   border: 1px solid #e5e5e5;
+//   border-radius: 3px;
+
+//   /* Misc */
+//   opacity: 1;
+// }

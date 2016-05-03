@@ -1,0 +1,8 @@
+[
+
+	{
+		"taskName": "yslow:dash",
+		"exec": "phantomjs yslow.js --info basic --format json http://localhost:3000 > src/dash/data/yslow/pp.json"
+	}
+	
+]

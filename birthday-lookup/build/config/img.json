@@ -1,0 +1,7 @@
+{
+	"taskName": "img",
+	"dirs": {
+		"src": "./src/img/*.*",
+		"dest": "dist/img/"
+	}
+}

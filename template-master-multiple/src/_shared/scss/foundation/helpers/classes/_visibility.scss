@@ -1,0 +1,14 @@
+/* ==========================================================================
+   HELPERS/CLASSES - VISIBILITY
+   ========================================================================== */
+
+// visibility
+.h-show, %show {
+	display: block !important;
+}
+.h-is-hidden, %hide {
+	display: none;
+}
+.h-is-vh, %vh {
+	@include vh;
+}

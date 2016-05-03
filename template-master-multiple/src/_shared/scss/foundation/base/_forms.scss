@@ -1,0 +1,91 @@
+/* ==========================================================================
+   BASE - FORMS
+   ========================================================================== */
+
+// typical form markup
+
+// <form>
+
+// 	<fieldset>
+
+// 		<legend></legend>
+
+// 		<ul>
+// 			<li>
+// 				<label></label>
+// 				<input type="text">
+// 			</li>
+// 			<li>
+// 				<label></label>
+// 				<input type="text">
+// 			</li>
+// 		</ul>
+
+// 	</fieldset>
+
+// </form>
+
+fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+label {
+	display: block;
+  margin-bottom: $label--marginBottom;
+}
+
+button, input, optgroup, select, textarea {
+	margin: 0;
+	font-family: inherit;
+	font-size: 100%;
+	color: inherit;
+}
+
+button, select {
+	text-transform: none;
+}
+
+textarea {
+	overflow: auto;
+}
+
+input, textarea {
+	width: $form--width;
+	border: $form--border;
+	padding: $form--padding;
+
+		&:hover {
+	      
+	  }
+	  &:focus {
+
+	  }
+}
+
+input[type=text], input[type=search], input[type=url], input[type=number], textarea {
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	width: auto;
+	margin-right: toRem(4px);
+}
+
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+	cursor: default;
+	opacity : .25;
+}

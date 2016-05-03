@@ -1,0 +1,32 @@
+/* ==========================================================================
+   COMPONENTS - POST-DETAIL
+   ========================================================================== */
+
+.c-post-detail {
+
+    &__header {
+        padding: $base-spacing;
+
+            &--html {
+                background: colour(tech, html);
+                color: white;
+            }
+    }
+
+    &__title {
+        margin-bottom: $base-spacing;
+        font-size: toRem(28px);
+    }
+
+    &__date {
+        display: inline-block;
+        margin-right: toRem(12px);
+        text-transform: uppercase;
+    }
+
+    &__content {
+        padding: $base-spacing;
+        font-size: toRem(20px);
+    }
+
+}

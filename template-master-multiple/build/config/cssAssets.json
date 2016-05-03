@@ -1,0 +1,14 @@
+[
+
+	{
+		"taskName": "cssAssets:dash",
+		"dirs": {
+			"src": [
+				"./src/_shared/scss/assets/**/*",
+				"./src/dash/scss/assets/**/*"
+			],
+			"dest": "dist/dash/css/assets/"
+		}
+	}
+
+]

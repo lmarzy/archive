@@ -1,0 +1,7 @@
+{
+	"navSite": [
+		{ "linkName": "Dashboard", "linkUrl": "/" },
+		{ "linkName": "Style Guide", "linkUrl": "/guide.html" }
+	]
+
+}

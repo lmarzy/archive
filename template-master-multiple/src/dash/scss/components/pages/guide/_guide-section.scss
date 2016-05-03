@@ -1,0 +1,33 @@
+/* ==========================================================================
+   COMPONENT/PAGES/GUIDE - GUIDE SECTIONS
+   ========================================================================== */
+
+.guide {
+	position: relative;
+	background: white;
+	border-radius: toRem(6px);
+	overflow: hidden;
+}
+
+.guide__title, .guide__content {
+	padding: $spacing / 2;
+}
+
+.guide__title {
+	background: colour(brand, a);
+	color: white;
+
+		@include bp(10) {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: 25%;
+		}
+}
+
+.guide__content {
+		@include bp(10) {
+			margin-left: 25%;
+		}
+}

@@ -1,0 +1,13 @@
+//FUNCTION - COLOURS(for sass maps)
+
+// sass maps function for colour usage = color: colour(type, colour); e.g color: colour(brand, primary);
+
+@function colour($type, $colour) {
+
+	@if not map-has-key($col, $type) {
+    @warn "No colour found for `#{$type}` in $colours map. Property omitted.";
+  }
+
+  @return map-get(map-get($col, $type), $colour);
+  
+}

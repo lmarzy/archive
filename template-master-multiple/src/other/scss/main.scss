@@ -1,0 +1,68 @@
+// Site          : Master starter templagte
+// CSS author    : Lee Marsden
+// Site CSS File : site.scss - used to import all other scss files for the site
+
+// SETTINGS ------------------------------------------------------------
+
+// shared
+@import "../../_shared/scss/foundation/settings/imports";
+
+// local
+@import "_settings/vars";
+@import "_settings/map-bp";
+@import "_settings/map-pallette";
+
+
+// FUNCTIONS ------------------------------------------------------------
+
+@import "../../_shared/scss/foundation/functions/imports";
+
+
+// BASE ------------------------------------------------------------
+
+@import "../../_shared/scss/foundation/base/imports";
+
+
+// HELPERS ------------------------------------------------------------
+
+// shared
+@import "../../_shared/scss/foundation/helpers/imports";
+
+// local
+@import "helpers/classes";
+@import "helpers/animations";
+
+
+// MODULES ------------------------------------------------------------
+
+// shared
+@import "../../_shared/scss/modules/buttons";
+@import "../../_shared/scss/modules/grids";
+@import "../../_shared/scss/modules/icons";
+@import "../../_shared/scss/modules/nav";
+@import "../../_shared/scss/modules/headings";
+
+// local
+
+// LAYOUT ------------------------------------------------------------
+
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+// COMPONENTS ------------------------------------------------------------
+
+//header
+@import "components/header/logo";
+@import "components/header/burger";
+
+//navigation
+@import "components/navigation/nav-site";
+
+//pages/index
+
+//footer
+@import "components/footer/copyright";
+
+
+

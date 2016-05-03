@@ -1,0 +1,36 @@
+// COLOURS
+
+
+//brand
+$colour-a 											: gray; // to be updated
+$colour-b 											: lightgray; // to be updated
+
+//shades
+$shades 												: hsl(0, 0%, 100%);
+
+//texture
+$colour-border 									: gray; // to be updated
+
+//links
+$colour-link 										: $colour-a; // to be updated
+$colour-link--hover 						: darken($colour-a,10); // to be updated
+
+//alerts
+
+$colour-info 										: hsl(194, 66%, 61%);
+$colour-warn 										: hsl(35, 84%, 62%);
+$colour-error 									: hsl(2, 64%, 58%);
+$colour-success 								: hsl(120, 39%, 54%);
+  
+//tech
+$colour-html 										: hsl(31, 97%, 62%);
+$colour-css 										: hsl(196, 66%, 41%);
+$colour-js 											: hsl(41, 94%, 65%);
+$colour-misc 		 								: hsl(0, 0%, 45%);
+
+//social
+$colour-facebook                : hsl(221, 44%, 41%);
+$colour-twitter                 : hsl(196, 100%, 46%);
+$colour-google                  : hsl(7, 71%, 55%);
+$colour-instagram               : hsl(207, 34%, 48%);
+$colour-youtube                 : hsl(0, 100%, 37%);

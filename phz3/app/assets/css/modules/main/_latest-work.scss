@@ -1,0 +1,93 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : MODULES/MAIN/LATEST-WORK - styles for latest work
+
+/* ==========================================================================
+   LATEST-WORK MODULE STYLES
+   ========================================================================== */
+
+.latestWork {
+	padding: $spacing 0;
+	background: $white;
+
+		.wrap {
+			overflow: hidden;
+		}
+}
+
+.latestWork--details {
+	position: relative;
+	@include cf;
+
+	@media #{$bp-10} {
+		> h1, article {
+			width: 50%;
+			float: left;
+		}
+		article {
+			text-align: left;
+			padding-left: $spacing;
+			border-left: 1px solid $border-colour;
+
+				p { margin: 0; }
+		}
+	}
+
+}
+
+.latestWork--current {
+	
+	@extend %transition-slow;
+
+	.active & {
+		transform: translateX(-100%);
+	}
+
+}
+
+.latestWork--last {
+	position: absolute;
+	top: 0;
+	transform: translateX(100%);
+	
+	@extend %transition-slow;
+
+	.active & {
+		transform: translateX(0);
+	}
+}
+
+.latestWork--link {
+	background: none;
+	border: none;
+	font-size: toRem(26px);
+	color: lighten($primary-colour,35);
+	
+		@media #{$bp-10} {
+			position: absolute;
+			top: toRem(15px);
+			font-size: toRem(38px);
+			cursor: pointer;
+				
+				&.last {
+					left: 14%;
+
+					transition: all 150ms ease-in;
+
+					&:hover {
+						transform: translateX(toRem(-4px));
+					}
+				}
+				&.current {
+					left: 34%;
+
+					transition: all 150ms ease-in;
+
+					&:hover {
+						transform: translateX(toRem(4px));
+					}	
+				}
+		}
+	
+}

@@ -1,0 +1,34 @@
+/* ==========================================================================
+   COMPONENTS - GROUP
+   ========================================================================== */
+
+.group {
+	position: relative;
+	margin-bottom: $base-spacing / 2;
+
+		&__label {
+			position: absolute;
+			top: toRem(8px);
+			left: toRem(8px);
+		}
+
+		&__bar 	{
+			position:relative; display:block; width:100%;
+
+				&:before, &:after 	{
+			  content: '';
+			  height: 2px; 
+			  width: 0;
+			  bottom: 0; 
+			  position: absolute;
+			  background: colour(brand, a); 
+			  transition: 0.2s ease all;
+			}
+			&:before {
+			  left: 50%;
+			}
+			&:after {
+			  right: 50%; 
+			}
+		}
+}

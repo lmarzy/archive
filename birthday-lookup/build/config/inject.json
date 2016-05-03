@@ -1,0 +1,15 @@
+{
+	"taskName": "inject",
+	"taskNameWatch": "injectWatch",
+	"dirs": {
+		"src": "dist/**/*.html",
+		"dest": "dist"
+	},
+	"inject": {
+		"cssJs": [
+			"dist/css/*.css",
+			"dist/js/*.js"
+		]
+	},
+	"depd": "swig"
+}

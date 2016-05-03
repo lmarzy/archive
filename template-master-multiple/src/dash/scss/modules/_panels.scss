@@ -1,0 +1,19 @@
+/* ==========================================================================
+   MODULES - PANELS
+   ========================================================================== */
+
+.m-panel {
+
+	@include bp(10) {
+		padding: $spacing / 2;
+		background: white;
+		border-radius: 4px;
+	}
+	
+}
+
+.m-panel--rounded {
+	background: white;
+	padding: $spacing / 2;
+	text-align: center;
+}

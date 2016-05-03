@@ -1,0 +1,31 @@
+// Site          : Responsive Template with SASS and Javascript
+// CSS author    : Lee Marsden
+// Updated by    : Lee Marsden
+// Site CSS File : LAYOUT/SIDEBAR - layout styles for the sidebar
+
+/* ==========================================================================
+   SIDEBVAR LAYOUT STYLES
+   ========================================================================== */
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: toRem(-300px);
+	width: toRem(300px);
+	padding-left: toRem(4px);
+	background: $sidebar-bg;
+	border-left: 1px solid $sidebar-border;
+	box-shadow: inset 4px 4px 0 rgba($white,0.6);
+
+		@extend %transition;
+
+		.sidebar-active & {
+			right: 0;
+		}
+
+		@media #{$bp-20} {
+			right: 0;
+		}
+
+}

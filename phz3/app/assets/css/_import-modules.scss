@@ -1,0 +1,35 @@
+// Site 					: Responsive Template with SASS
+// CSS author 		: Lee Marsden
+// Updated body 	: Lee Marsden
+// Site CSS File 	: IMPORT-MODULES - module imports - used for the majority of the site to easily identify common design patterns
+
+/* ==========================================================================
+		MODULES IMPORTS
+	 ========================================================================== */
+
+// global modules
+@import "modules/global/headings";
+@import "modules/global/icons";
+@import "modules/global/intro";
+@import "modules/global/panels";
+
+// header
+@import "modules/header/logo";
+@import "modules/header/tagline";
+@import "modules/header/tagline-additional";
+@import "modules/header/sidebar-link";
+
+// sidebar
+@import "modules/sidebar/sidebar-close-link";
+@import "modules/sidebar/navigation";
+@import "modules/sidebar/contact";
+
+// main
+@import "modules/main/section";
+@import "modules/main/clients";
+@import "modules/main/freelance";
+@import "modules/main/about";
+@import "modules/main/team";
+@import "modules/main/latest-work";
+
+// footer

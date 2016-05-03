@@ -1,0 +1,4 @@
+{
+	"taskName": "casper",
+	"src": "./tests/functional/casper.js"
+}

@@ -1,0 +1,26 @@
+/* ==========================================================================
+   COMPONENTS/TYPE - HEADINGS
+   ========================================================================== */
+
+.heading-section {
+	padding: 0 $base-spacing / 2;
+	color: white;
+}
+
+.heading-section--search {
+	@include vr(26px, 1.5);
+	background: colour(brand, a);
+
+		@include bp(10) {
+			@include vr(34px, 2);
+		}
+}
+
+.heading-section--upcoming {
+	@include vr(20px, 2);
+	background: colour(brand, b);
+
+		@include bp(10) {
+			@include vr(24px, 4);
+		}
+}

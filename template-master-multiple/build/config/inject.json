@@ -1,0 +1,17 @@
+[
+
+	{
+		"taskName": "inject:dash",
+		"taskNameWatch": "injectWatch:dash",
+		"src": "dist/**/*.html",
+		"inject": {
+			"cssJs": [
+				"dist/dash/css/*.css",
+				"dist/dash/js/*.js"
+			]
+		},
+		"depd": "swig:dash",
+		"dest": "dist"
+	}
+
+]
