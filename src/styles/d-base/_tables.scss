@@ -1,0 +1,29 @@
+@if $tables {
+  /* ==========================================================================
+   BASE - TABLES
+   ========================================================================== */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  }
+  th {
+    text-align: left;
+  }
+}
+
+// typical table markup
+// <table>
+// 	<thead>
+// 		<tr>
+// 			<th>table head</th>
+// 			<th>table head</th>
+// 		</tr>
+// 	</thead>
+// 	<tbody>
+// 		<tr>
+// 			<td>table body</td>
+// 			<td>table body</td>
+// 		</tr>
+// 	</tbody>
+// </table>

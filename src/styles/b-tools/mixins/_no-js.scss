@@ -1,0 +1,7 @@
+// MIXIN - JAVASCRIPT DISABLED
+
+@mixin no-js {
+  .no-js & {
+    @content;
+  }
+}

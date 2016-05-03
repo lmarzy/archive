@@ -1,0 +1,11 @@
+// FUNCTION - Z-INDEX
+
+// sass maps function for z-index usage = z-index: z(key); e.g. z-index: z(overlay);
+
+@function z($key) {
+  @if not map-has-key($z-layers, $key) {
+    @warn "Unknown `#{$key}` in $z-layers.";
+  }
+
+  @return map-get($z-layers, $key);
+}

@@ -1,0 +1,11 @@
+@if $o-wrapper {
+  /* ==========================================================================
+   OBJECTS - WRAPPER
+   ========================================================================== */
+  .o-container {
+    padding: 0 $base-spacing / 2;
+    max-width: setting(misc, maxWidth);
+    margin: 0 auto;
+  }
+}
+// END IF

@@ -1,0 +1,14 @@
+/* ==========================================================================
+   OBJECTS - GRID-FLEXBOX
+   ========================================================================== */
+
+.o-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: -$gutter;
+  &__item {
+    padding-left: $gutter;
+  }
+}

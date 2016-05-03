@@ -1,0 +1,14 @@
+@if $colours {
+  /* ==========================================================================
+     UTILITIES/HELPERS - COLOURS
+     ========================================================================== */
+  @each $theme,$colour in map-get($colours, brand) {
+    .u-col-#{$theme} {
+      color: $colour !important;
+    }
+    .u-bgcol-#{$theme} {
+      background: $colour !important;
+    }
+  }
+}
+// END OF

@@ -1,0 +1,55 @@
+@if $c-buttons {
+  /* ==========================================================================
+   COMPONENTS - BUTTONS
+   ========================================================================== */
+  .c-btn {
+    display: inline-block;
+    height: em(40px);
+    padding: 0 em(10px);
+    font: inherit;
+    line-height: em(40px);
+    text-align: center;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {}
+    &--a {
+      background: white;
+      border-color: colour(main, borders);
+      color: black;
+      &:hover,
+      &:focus,
+      &:active,
+      &:visited,
+      &.btn-disabled,
+      &[disabled] {}
+    }
+    &--tiny {
+      font-size: $btn-tiny;
+    }
+    &--small {
+      font-size: $btn-small;
+    }
+    &--large {
+      font-size: $btn-large;
+    }
+    &--huge {
+      font-size: $btn-huge;
+    }
+  }
+  // disabled buttons
+  button[disabled],
+  .c-btn--disabled {
+    opacity: 0.4;
+    cursor: default;
+    &:hover {
+      opacity: 0.4;
+    }
+  }
+}
+// END IF

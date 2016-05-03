@@ -1,0 +1,43 @@
+/* ==========================================================================
+     BASE - TYPOGRAPHY
+   ========================================================================== */
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: setting(headings, fontFamily);
+  font-size: inherit;
+  font-weight: setting(headings, fontWeight);
+}
+
+p {
+  margin: 0 0 $rhythm;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+abbr {
+  border-bottom: 1px dotted colour(main, borders);
+  cursor: help;
+}
+
+small {
+  font-size: 80%;
+}

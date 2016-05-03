@@ -1,0 +1,22 @@
+@if $o-grids {
+  /* ==========================================================================
+   OBJECTS - GRIDS
+   ========================================================================== */
+  .o-grid {
+    margin-left: -$gutter;
+
+    @include cf;
+    &__item {
+      float: left;
+      padding-left: $gutter;
+    }
+  }
+
+  @include widths("o-");
+
+  @each $bp, $query in map-get($settings, breakpoints) {
+    @include bp($bp) {
+      @include widths("o-bp" + $bp + "-");
+    }
+  }
+}

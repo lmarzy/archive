@@ -1,0 +1,11 @@
+//FUNCTION - COLOURS(for sass maps)
+
+// sass maps function for colour usage = color: colour(type, colour); e.g color: colour(brand, a);
+
+@function colour($type, $colour) {
+  @if not map-has-nested-keys($colours, $type, $colour) {
+    @warn "No colour found for `#{$type}` in $colours map. Property omitted.";
+  }
+
+  @return map-deep-get($colours, $type, $colour);
+}

@@ -1,0 +1,31 @@
+// MIXIN - TYPOGRAPHY
+
+@mixin vr($size, $multiplier: 1, $margin-bottom: null) {
+  font-size: ($size / $font-size) * 1rem;
+  line-height: ceil($size / $line-height) * (($line-height * $multiplier) / $size);
+
+  @if ($margin-bottom != null) {
+    margin-bottom: $base-spacing * $margin-bottom;
+  }
+}
+
+@mixin text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin css-hyphens($val:auto) {
+  -webkit-hyphens: $val;
+  -moz-hyphens: $val;
+  -ms-hyphens: $val;
+  -o-hyphens: $val;
+  hyphens: $val;
+}
+
+@mixin smallcaps($color, $font-weight) {
+  font-variant: small-caps;
+  font-weight: $font-weight;
+  text-transform: lowercase;
+  color: $color;
+}

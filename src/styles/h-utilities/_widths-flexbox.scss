@@ -1,0 +1,13 @@
+@if $widths-flexbox {
+  /* ==========================================================================
+   UTILITIES/HELPERS - WIDTHS-FLEXBOX
+   ========================================================================== */
+  @include widths-flexbox("u");
+
+  @each $bp, $query in map-get($settings, breakpoints) {
+    @include bp($bp) {
+      @include widths-flexbox("u-bp" + $bp);
+    }
+  }
+}
+// END IF

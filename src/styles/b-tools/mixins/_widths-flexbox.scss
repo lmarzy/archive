@@ -1,0 +1,102 @@
+/* ==========================================================================
+   TOOLS - MIXINS - WIDTHS-FLEXBOX
+   ========================================================================== */
+
+@mixin widths-flexbox($namespace: "") {
+  .#{$namespace}-1of1 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .#{$namespace}-1of2 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .#{$namespace}-1of3 {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+  .#{$namespace}-2of3 {
+    flex-basis: 66.666%;
+    max-width: 66.666%;
+  }
+  .#{$namespace}-1of4 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .#{$namespace}-3of4 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  .#{$namespace}-1of5 {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+  .#{$namespace}-2of5 {
+    flex-basis: 40%;
+    max-width: 40%;
+  }
+  .#{$namespace}-3of5 {
+    flex-basis: 60%;
+    max-width: 60%;
+  }
+  .#{$namespace}-4of5 {
+    flex-basis: 80%;
+    max-width: 80%;
+  }
+  .#{$namespace}-1of6 {
+    flex-basis: 16.666%;
+    max-width: 16.666%;
+  }
+  .#{$namespace}-5of6 {
+    flex-basis: 83.333%;
+    max-width: 83.333%;
+  }
+  .#{$namespace}-1of8 {
+    flex-basis: 12.5%;
+    max-width: 12.5%;
+  }
+  .#{$namespace}-3of8 {
+    flex-basis: 37.5%;
+    max-width: 37.5%;
+  }
+  .#{$namespace}-5of8 {
+    flex-basis: 62.5%;
+    max-width: 62.5%;
+  }
+  .#{$namespace}-7of8 {
+    flex-basis: 87.5%;
+    max-width: 87.5%;
+  }
+  .#{$namespace}-1of10 {
+    flex-basis: 10%;
+    max-width: 10%;
+  }
+  .#{$namespace}-3of10 {
+    flex-basis: 30%;
+    max-width: 30%;
+  }
+  .#{$namespace}-7of10 {
+    flex-basis: 70%;
+    max-width: 70%;
+  }
+  .#{$namespace}-9of10 {
+    flex-basis: 90%;
+    max-width: 90%;
+  }
+  .#{$namespace}-1of12 {
+    flex-basis: 8.333%;
+    max-width: 8.333%;
+  }
+  .#{$namespace}-5of12 {
+    flex-basis: 41.666%;
+    max-width: 41.666%;
+  }
+  .#{$namespace}-7of12 {
+    flex-basis: 58.333%;
+    max-width: 58.333%;
+  }
+  .#{$namespace}-11of12 {
+    flex-basis: 91.666%;
+    max-width: 91.666%;
+  }
+}

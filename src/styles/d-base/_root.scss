@@ -1,0 +1,38 @@
+/* ==========================================================================
+   BASE - ROOT
+   ========================================================================== */
+
+html {
+  font-family: setting(type, fontFamily);
+  font-size: setting(type, fontSize);
+  line-height: setting(type, lineHeight);
+  background: colour(main, bg);
+  color: colour(main, text);
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+
+  @each $query, $bp in map-get($settings, breakpoints) {
+    @include bp($query) {
+      &::before {
+        content: "bp" + $query;
+        display: none;
+      }
+    }
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}

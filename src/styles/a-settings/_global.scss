@@ -1,0 +1,27 @@
+// SETTINGS - GLOBAL
+
+$settings: (
+
+	type: (
+		fontFamily 					: sans-serif,
+		fontSize 						: 100%,
+		lineHeight 					: $line-height / $font-size
+	),
+
+	headings: (
+		fontFamily 					: inherit,
+		fontSize 						: inherit,
+		fontWeight 					: 700
+	),
+
+	breakpoints: (
+		10 									: 400px
+	),
+
+	misc: (
+		transitionDuration 	: 250ms,
+		borderRadius 				: 6px,
+		maxWidth 						: 1200px
+	)
+
+);

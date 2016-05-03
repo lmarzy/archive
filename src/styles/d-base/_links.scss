@@ -1,0 +1,15 @@
+@if $links {
+  /* ==========================================================================
+	   BASE - LINKS
+	   ========================================================================== */
+  a {
+    color: colour(main, links);
+    background-color: transparent;
+    text-decoration: none;
+    &:active,
+    &:hover {
+      outline: none;
+    }
+  }
+}
+// END IF

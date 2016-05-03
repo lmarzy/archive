@@ -1,0 +1,27 @@
+// MIXIN - VISIBILITY
+
+@mixin hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+@mixin hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin invisible {
+  visibility: hidden;
+}
+
+@mixin vh {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}

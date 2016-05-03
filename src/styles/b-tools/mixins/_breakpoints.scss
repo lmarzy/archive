@@ -1,0 +1,42 @@
+// MIXIN - BREAKPOINT
+// Usage
+// @include bp(10) {}
+// @include bp(10, max) {}
+// @include bpMinMax(10, 20) {}
+
+@mixin bp($breakpoint, $direction: min) {
+  @if not map-has-nested-keys($settings, breakpoints, $breakpoint) {
+    @warn "No value could be retrieved from `#{$breakpoint}`. " + "Please make sure it is defined in `$breakpoints` map. you noob";
+  }
+
+  @else {
+    @if ($direction == "min") {
+      @media (#{$direction}-width: #{rem(map-deep-get($settings, breakpoints, $breakpoint))}) {
+        @content;
+      }
+    }
+
+    @else {
+      @media (#{$direction}-width: #{rem(map-deep-get($settings, breakpoints, $breakpoint) - 1)}) {
+        @content;
+      }
+    }
+  }
+}
+
+@mixin bpMinMax($min, $max) {
+  @if not map-has-nested-keys($settings, breakpoints, $min) {
+    @warn "No value could be retrieved from min breakpoint `#{$min}`. " + "Please make sure it is defined in `$breakpoints` map. you noob";
+  }
+
+  @else if not map-has-nested-keys($settings, breakpoints, $max) {
+    @warn "No value could be retrieved from max breakpoint `#{$max}`. " + "Please make sure it is defined in `$breakpoints` map. you noob";
+  }
+
+  @else {
+    @media (min-width: #{rem(map-deep-get($settings, breakpoints, $min))}) and (max-width: #{rem(map-deep-get($settings, breakpoints, $max) - 1)}) {
+      @content;
+    }
+  }
+
+}

@@ -1,0 +1,10 @@
+// FUNCTION - PX TO EM
+
+// usage
+// em(24px);
+
+@function em($px-size) {
+  $emSize: $px-size / $font-size;
+
+  @return #{$emSize}em;
+}
